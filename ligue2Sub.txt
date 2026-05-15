@@ -1,0 +1,90 @@
+
+  L'Objectif
+Vous contrôlez une meute de trolls. Faites-leur collecter le plus de ressources possible.
+  Règles
+Chaque joueur commence avec un shack (cabane) et un troll. Contrôlez votre troll pour collecter des fruits puis rapporter les ressources à votre shack. Les ressources peuvent être utilisées pour entraîner davantage de trolls ou planter des arbres. Le jeu se déroule sur une grille dont les cases ont différents types de terrain et peuvent contenir des arbres.
+
+Attributs des trolls
+Chaque troll possède 4 attributs : movementSpeed (vitesse de déplacement), carryCapacity (capacité de transport), harvestPower (puissance de récolte) et chopPower (puissance de coupe). Ils ne peuvent pas être modifiés.
+
+Arbres
+Un arbre possède un type (PLUM (prune), LEMON (citron), APPLE (pomme), BANANA (banane)), une size (taille), une health (points de vie), une quantité de fruits et un cooldown (délai de recharge). Quand le cooldown atteint 0, l'arbre grandit ou, s'il est à la taille maximale (4), produit des fruits. Les arbres peuvent contenir jusqu'à 3 fruits.
+
+
+
+Déplacement des unités
+Chaque troll possède une movementSpeed déterminant combien de cases il peut MOVE (se déplacer) horizontalement ou verticalement par tour. Chaque case peut contenir au maximum 1 troll par équipe. Seules les cases GRASS (herbe) sont praticables. La cabane sert également de point d'apparition, mais les trolls ne peuvent pas revenir sur cette case après l'avoir quittée. Si la cible est hors de portée ou non praticable, le troll se déplace vers la case accessible la plus proche en direction de celle-ci.
+
+Récolte
+Les arbres peuvent être récoltés s'ils portent des fruits. Lorsqu'un troll se trouve sur la même case qu'un arbre, HARVEST (récolter) prendra autant de fruits que possible en fonction de la carryCapacity libre et de la harvestPower. Lorsque deux trolls récoltent le même arbre en parallèle, ils prennent chacun un fruit à la fois, tant qu'il reste des fruits et qu'ils peuvent encore récolter. Le dernier fruit peut être dupliqué afin que les deux trolls puissent l'obtenir.
+
+Plantation d'arbres
+Un troll peut PLANT un arbre sur sa case actuelle s'il porte au moins 1 fruit de ce type. Si deux trolls tentent de planter un arbre du même type sur la même case, les deux perdent une graine et l'arbre est planté. S'ils tentent de planter des types différents, rien ne se passe.
+
+Dépôt d'objets
+Lorsqu'un troll portant des ressources est adjacent (horizontalement ou verticalement) à son shack, DROP (déposer) transfère tous les objets portés au shack.
+
+Prise d'objets
+Un troll peut PICK (prendre) un objet dans son shack. Un seul objet peut être pris à la fois.
+
+Entraînement des trolls
+Utilisez TRAIN pour faire apparaître un nouveau troll à votre shack et définir ses quatre attributs. Chaque attribut nécessite une ressource différente :
+
+    PLUM pour la movementSpeed
+    LEMON pour la carryCapacity
+    APPLE pour la harvestPower
+    (réservé aux ligues supérieures)
+
+Le coût de chaque attribut est égal au nombre de trolls existants dans votre équipe plus l'attribut au carré.
+Exemple : vous avez déjà 2 trolls et voulez TRAIN les suivants, ce qui vous donne ces coûts :
+
+    2 movementSpeed : 2 + 2×2 = 6 PLUMs
+    3 carryCapacity : 2 + 3×3 = 11 LEMONs
+    1 harvestPower : 2 + 1×1 = 3 APPLEs 
+
+
+
+Conditions de victoire
+
+    Vous marquez plus de points que votre adversaire. Chaque fruit dans votre shack rapporte 1 point 
+
+Conditions de défaite
+
+    Vous avez moins de points que votre adversaire.
+    Vous ne répondez pas à temps ou envoyez une commande non reconnue. 
+
+
+  Entrées du jeu
+Entrée initiale
+Première ligne : width height, la taille de la grille.
+Les height lignes suivantes : chaque ligne comporte width caractères : Dans cette ligue, chaque caractère est . pour GRASS, 0 pour votre SHACK (cabane), 1 pour le SHACK de votre adversaire.
+
+
+Entrée pour chaque tour de jeu
+Deux premières lignes : votre inventaire suivi de celui de votre adversaire : plums, lemons, apples, bananas, (réservé), (réservé). Dans cette ligue, les deux dernières valeurs sont toujours 0.
+Ligne suivante : treeCount, le nombre d'arbres.
+Les treeCount lignes suivantes : type x y size health fruits cooldown, où type peut être PLUM, LEMON, APPLE, BANANA.
+Ligne suivante : trollsCount, le nombre de trolls.
+Les trollsCount lignes suivantes : id player x y movementSpeed carryCapacity harvestPower (réservé) carryPlum carryLemon carryApple carryBanana (réservé) (réservé), où player vaut 0 si vous possédez le troll, 1 sinon.
+
+Sortie pour un tour de jeu
+Chaque tour, vous pouvez afficher un nombre quelconque de commandes, séparées par ;.
+
+    MOVE id x y Déplace le troll id vers la case (x, y).
+    HARVEST id Fait récolter le troll id sur sa case actuelle.
+    PLANT id type Fait planter au troll id un arbre de type type sur sa case actuelle : PLUM, LEMON, APPLE ou BANANA.
+    PICK id type Fait prendre au troll id un objet de type type dans le shack : PLUM, LEMON, APPLE ou BANANA.
+    DROP id Fait déposer au troll id tous ses objets au shack.
+    TRAIN moveSpeed carryCapacity harvestPower chopPower Entraîne un nouveau troll avec les attributs donnés.
+    WAIT (attendre) pour ne rien faire.
+    MSG text (message) pour afficher un message dans le replay.
+
+Contraintes
+
+Temps de réponse pour le premier tour ≤ 1000 ms
+Temps de réponse par tour ≤ 50 ms
+Remarque : vous ne perdrez la partie qu'en dépassant la limite de temps 3 fois d'au plus 50 ms, ou une fois de plus que cela. Ceci compense les délais aléatoires des serveurs ; il n'est pas conseillé de dépasser intentionnellement les limites.
+La partie se termine après 100 tours (dans cette ligue, plus tard 300)
+height = 8 (dans cette ligue, jusqu'à 11 plus tard)
+width = 2 * height
+

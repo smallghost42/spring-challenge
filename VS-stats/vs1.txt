@@ -1,0 +1,5548 @@
+
+Sortie standard :
+
+MOVE 0 7 4;TRAIN 2 1 1 1
+
+001 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 11 3
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (7, 4)
+Guugugaga: trained a troll
+Défaut: troll 1 moved to (11, 3)
+
+Sortie standard :
+
+PICK 0 APPLE;MOVE 2 6 4
+
+002 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;PICK 1 1
+
+Résumé du jeu :
+
+Guugugaga: troll 2 moved to (6, 4)
+Guugugaga: troll 0 picked 1 APPLE
+Défaut: troll 1 picked 1 LEMON
+
+Sortie standard :
+
+DROP 0;MOVE 2 5 3
+
+003 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;PLANT 1 1
+
+Résumé du jeu :
+
+Guugugaga: troll 2 moved to (5, 3)
+Guugugaga: troll 0 dropped 1 item to the shack
+Défaut: troll 1 planted a LEMON
+
+Sortie standard :
+
+PICK 0 APPLE;HARVEST 2
+
+004 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;PICK 1 2
+
+Résumé du jeu :
+
+Guugugaga: troll 2 harvested 1 PLUM
+Guugugaga: troll 0 picked 1 APPLE
+Défaut: troll 1 picked 1 APPLE
+
+Sortie standard :
+
+DROP 0;MOVE 2 6 4
+
+005 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 11 2
+
+Résumé du jeu :
+
+Guugugaga: troll 2 moved to (6, 4)
+Guugugaga: troll 0 dropped 1 item to the shack
+Défaut: troll 1 moved to (11, 2)
+
+Sortie standard :
+
+PICK 0 APPLE;MOVE 2 6 5
+
+006 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 12 2
+
+Résumé du jeu :
+
+Guugugaga: troll 2 moved to (6, 5)
+Guugugaga: troll 0 picked 1 APPLE
+Défaut: troll 1 moved to (12, 2)
+
+Sortie standard :
+
+DROP 0;DROP 2
+
+007 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 13 2
+
+Résumé du jeu :
+
+Guugugaga: troll 0 dropped 1 item to the shack
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 1 moved to (13, 2)
+
+Sortie standard :
+
+PICK 0 PLUM;MOVE 2 4 5
+
+008 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;PLANT 1 2
+
+Résumé du jeu :
+
+Guugugaga: troll 2 moved to (4, 5)
+Guugugaga: troll 0 picked 1 PLUM
+Défaut: troll 1 planted a APPLE
+
+Sortie standard :
+
+DROP 0;MOVE 2 3 5
+
+009 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 13 3
+
+Résumé du jeu :
+
+Guugugaga: troll 2 moved to (3, 5)
+Guugugaga: troll 0 dropped 1 item to the shack
+Défaut: troll 1 moved to (13, 3)
+
+Sortie standard :
+
+PICK 0 PLUM;HARVEST 2
+
+010 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 12 3
+
+Résumé du jeu :
+
+Guugugaga: troll 2 harvested 1 LEMON
+Guugugaga: troll 0 picked 1 PLUM
+Défaut: troll 1 moved to (12, 3)
+
+Sortie standard :
+
+DROP 0;MOVE 2 5 5
+
+011 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 11 3
+
+Résumé du jeu :
+
+Guugugaga: troll 2 moved to (5, 5)
+Guugugaga: troll 0 dropped 1 item to the shack
+Défaut: troll 1 moved to (11, 3)
+
+Sortie standard :
+
+PICK 0 PLUM;MOVE 2 6 5
+
+012 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;PICK 1 0
+
+Résumé du jeu :
+
+Guugugaga: troll 2 moved to (6, 5)
+Guugugaga: troll 0 picked 1 PLUM
+Défaut: troll 1 picked 1 PLUM
+
+Sortie standard :
+
+DROP 0;DROP 2
+
+013 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 11 4
+
+Résumé du jeu :
+
+Guugugaga: troll 0 dropped 1 item to the shack
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 1 moved to (11, 4)
+
+Sortie standard :
+
+PICK 0 PLUM;MOVE 2 5 4;TRAIN 1 1 1 0
+
+014 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 10 4
+
+Résumé du jeu :
+
+Guugugaga: troll 2 moved to (5, 4)
+Guugugaga: troll 0 picked 1 PLUM
+Guugugaga: trained a troll
+Défaut: troll 1 moved to (10, 4)
+
+Sortie standard :
+
+DROP 0;MOVE 2 5 3;MOVE 3 6 5
+
+015 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;PLANT 1 0
+
+Résumé du jeu :
+
+Guugugaga: troll 2 moved to (5, 3)
+Guugugaga: troll 3 moved to (6, 5)
+Guugugaga: troll 0 dropped 1 item to the shack
+Défaut: troll 1 planted a PLUM
+
+Sortie standard :
+
+MOVE 0 6 4;HARVEST 2;MOVE 3 5 5
+
+016 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 11 4
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (6, 4)
+Guugugaga: troll 3 moved to (5, 5)
+Guugugaga: troll 2 harvested 1 PLUM
+Défaut: troll 1 moved to (11, 4)
+
+Sortie standard :
+
+MOVE 0 6 5;MOVE 2 6 4;MOVE 3 5 4
+
+017 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 11 3
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (6, 5)
+Guugugaga: troll 2 moved to (6, 4)
+Guugugaga: troll 3 moved to (5, 4)
+Défaut: troll 1 moved to (11, 3)
+
+Sortie standard :
+
+MOVE 0 5 5;MOVE 2 7 4;MOVE 3 5 3
+
+018 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 12 3
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (5, 5)
+Guugugaga: troll 2 moved to (7, 4)
+Guugugaga: troll 3 moved to (5, 3)
+Défaut: troll 1 moved to (12, 3)
+
+Sortie standard :
+
+MOVE 0 4 5;DROP 2;HARVEST 3
+
+019 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 13 3
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (4, 5)
+Guugugaga: troll 3 harvested 1 PLUM
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 1 moved to (13, 3)
+
+Sortie standard :
+
+MOVE 0 3 5;MOVE 2 9 4;MOVE 3 5 4
+
+020 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 14 3
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (3, 5)
+Guugugaga: troll 2 moved to (9, 4)
+Guugugaga: troll 3 moved to (5, 4)
+Défaut: troll 1 moved to (14, 3)
+
+Sortie standard :
+
+HARVEST 0;MOVE 2 10 3;MOVE 3 6 4
+
+021 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 1
+
+Résumé du jeu :
+
+Guugugaga: troll 2 moved to (10, 4)
+Guugugaga: troll 3 moved to (6, 4)
+Guugugaga: troll 0 harvested 1 LEMON
+Défaut: troll 1 harvested 1 LEMON
+
+Sortie standard :
+
+MOVE 0 4 5;CHOP 2;MOVE 3 7 4
+
+022 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 13 3
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (4, 5)
+Guugugaga: troll 3 moved to (7, 4)
+Guugugaga: troll 2 damaged a tree
+Défaut: troll 1 moved to (13, 3)
+
+Sortie standard :
+
+MOVE 0 5 5;CHOP 2;DROP 3
+
+023 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 12 3
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (5, 5)
+Guugugaga: troll 2 damaged a tree
+Guugugaga: troll 3 dropped 1 item to the shack
+Défaut: troll 1 moved to (12, 3)
+
+Sortie standard :
+
+MOVE 0 6 5;CHOP 2;MOVE 3 6 4
+
+024 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 11 3
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (6, 5)
+Guugugaga: troll 3 moved to (6, 4)
+Guugugaga: troll 2 damaged a tree
+Défaut: troll 1 moved to (11, 3)
+
+Sortie standard :
+
+DROP 0;CHOP 2;MOVE 3 6 5
+
+025 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 1
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 3 can't move to (6, 5), target blocked
+Guugugaga: troll 2 damaged a tree
+Guugugaga: troll 0 dropped 1 item to the shack
+Défaut: troll 1 dropped 1 item to the shack
+
+Sortie standard :
+
+MOVE 0 5 5;CHOP 2;MOVE 3 5 4
+
+026 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 12 3
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (5, 5)
+Guugugaga: troll 3 moved to (5, 4)
+Guugugaga: troll 2 damaged a tree
+Défaut: troll 1 moved to (12, 3)
+
+Sortie standard :
+
+MOVE 0 4 5;CHOP 2;MOVE 3 5 3
+
+027 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 13 3
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (4, 5)
+Guugugaga: troll 3 moved to (5, 3)
+Guugugaga: troll 2 damaged a tree
+Défaut: troll 1 moved to (13, 3)
+
+Sortie standard :
+
+MOVE 0 3 5;CHOP 2;HARVEST 3
+
+028 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 14 3
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (3, 5)
+Guugugaga: troll 3 harvested 1 PLUM
+Guugugaga: troll 2 damaged a tree
+Défaut: troll 1 moved to (14, 3)
+
+Sortie standard :
+
+HARVEST 0;CHOP 2;MOVE 3 5 4
+
+029 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 1
+
+Résumé du jeu :
+
+Guugugaga: troll 3 moved to (5, 4)
+Guugugaga: troll 0 harvested 1 LEMON
+Guugugaga: troll 2 collected 1 WOOD
+Défaut: troll 1 harvested 1 LEMON
+
+Sortie standard :
+
+MOVE 0 4 5;MOVE 2 8 4;MOVE 3 6 4
+
+030 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 13 3
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (4, 5)
+Guugugaga: troll 2 moved to (8, 4)
+Guugugaga: troll 3 moved to (6, 4)
+Défaut: troll 1 moved to (13, 3)
+
+Sortie standard :
+
+MOVE 0 5 5;MOVE 2 7 4;MOVE 3 7 4
+
+031 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 12 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 2 can't move to (7, 4), target blocked
+Guugugaga: troll 0 moved to (5, 5)
+Guugugaga: troll 3 moved to (7, 4)
+Défaut: troll 1 moved to (12, 3)
+
+Sortie standard :
+
+MOVE 0 6 5;MOVE 2 7 4;DROP 3
+
+032 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 11 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 2 can't move to (7, 4), target blocked
+Guugugaga: troll 0 moved to (6, 5)
+Guugugaga: troll 3 dropped 1 item to the shack
+Défaut: troll 1 moved to (11, 3)
+
+Sortie standard :
+
+DROP 0;MOVE 2 7 4;MOVE 3 6 4
+
+033 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 1
+
+Résumé du jeu :
+
+Guugugaga: troll 2 moved to (7, 4)
+Guugugaga: troll 3 moved to (6, 4)
+Guugugaga: troll 0 dropped 1 item to the shack
+Défaut: troll 1 dropped 1 item to the shack
+
+Sortie standard :
+
+MOVE 0 6 4;DROP 2;MOVE 3 5 4
+
+034 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;TRAIN 2 2 1 2;PICK 1 0
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (6, 4)
+Guugugaga: troll 3 moved to (5, 4)
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 1 picked 1 PLUM
+Défaut: trained a troll
+
+Sortie standard :
+
+MOVE 0 7 4;MOVE 2 5 4;MOVE 3 5 3
+
+035 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 12 3;MOVE 4 11 4
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (7, 4)
+Guugugaga: troll 2 moved to (5, 4)
+Guugugaga: troll 3 moved to (5, 3)
+Défaut: troll 1 moved to (12, 3)
+Défaut: troll 4 moved to (11, 4)
+
+Sortie standard :
+
+MOVE 0 8 4;MOVE 2 4 4;HARVEST 3
+
+036 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 12 2;MOVE 4 12 5
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (8, 4)
+Guugugaga: troll 2 moved to (4, 4)
+Guugugaga: troll 3 harvested 1 PLUM
+Défaut: troll 1 moved to (12, 2)
+Défaut: troll 4 moved to (12, 5)
+
+Sortie standard :
+
+MOVE 0 9 4;HARVEST 2;MOVE 3 5 4
+
+037 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 4;MOVE 1 12 1
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (9, 4)
+Guugugaga: troll 3 moved to (5, 4)
+Guugugaga: troll 2 harvested 1 APPLE
+Défaut: troll 1 moved to (12, 1)
+Défaut: troll 4 harvested 1 PLUM
+
+Sortie standard :
+
+MOVE 0 10 4;MOVE 2 6 4;MOVE 3 6 4
+
+038 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;PLANT 1 0;HARVEST 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 2 can't move to (6, 4), target blocked
+Guugugaga: troll 0 moved to (10, 4)
+Guugugaga: troll 3 moved to (6, 4)
+Défaut: troll 4 harvested 1 PLUM
+Défaut: troll 1 planted a PLUM
+
+Sortie standard :
+
+MOVE 0 11 4;MOVE 2 6 4;MOVE 3 6 5
+
+039 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 12 2;MOVE 4 11 4
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (11, 4)
+Guugugaga: troll 2 moved to (6, 4)
+Guugugaga: troll 3 moved to (6, 5)
+Défaut: troll 1 moved to (12, 2)
+Défaut: troll 4 moved to (11, 4)
+
+Sortie standard :
+
+MOVE 0 11 3;MOVE 2 7 4;DROP 3
+
+040 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 12 3;MOVE 4 10 4
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (11, 3)
+Guugugaga: troll 2 moved to (7, 4)
+Guugugaga: troll 3 dropped 1 item to the shack
+Défaut: troll 1 moved to (12, 3)
+Défaut: troll 4 moved to (10, 4)
+
+Sortie standard :
+
+HARVEST 0;DROP 2;PICK 3 PLUM
+
+041 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;PLANT 4 0;MOVE 1 11 3
+
+Résumé du jeu :
+
+Guugugaga: troll 0 harvested 1 LEMON
+Guugugaga: troll 3 picked 1 PLUM
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 1 moved to (11, 3)
+Défaut: troll 4 planted a PLUM
+
+Sortie standard :
+
+MOVE 0 11 4;MOVE 2 6 5;DROP 3
+
+042 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 4;MOVE 1 12 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 2 can't move to (6, 5), target blocked
+Guugugaga: troll 0 moved to (11, 4)
+Guugugaga: troll 3 dropped 1 item to the shack
+Défaut: troll 1 moved to (12, 3)
+Défaut: troll 4 dropped 1 item to the shack
+
+Sortie standard :
+
+MOVE 0 10 4;PICK 2 PLUM;MOVE 3 5 5
+
+043 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 12 4;MOVE 4 11 3
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (10, 4)
+Guugugaga: troll 3 moved to (5, 5)
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 1 moved to (12, 4)
+Défaut: troll 4 moved to (11, 3)
+
+Sortie standard :
+
+MOVE 0 9 4;DROP 2;MOVE 3 4 5
+
+044 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 4;MOVE 1 12 5
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (9, 4)
+Guugugaga: troll 3 moved to (4, 5)
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 1 moved to (12, 5)
+Défaut: troll 4 harvested 1 LEMON
+
+Sortie standard :
+
+MOVE 0 8 4;PICK 2 PLUM;MOVE 3 3 5
+
+045 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 1;DROP 4
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (8, 4)
+Guugugaga: troll 3 moved to (3, 5)
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 1 harvested 1 PLUM
+Défaut: troll 4 dropped 1 item to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;HARVEST 3
+
+046 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 12 4;MOVE 4 12 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: troll 3 harvested 1 LEMON
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 1 moved to (12, 4)
+Défaut: troll 4 moved to (12, 3)
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 3 4
+
+047 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 11 4;MOVE 4 12 5
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: troll 3 moved to (3, 4)
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 1 moved to (11, 4)
+Défaut: troll 4 moved to (12, 5)
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 4 4
+
+048 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 4;MOVE 1 10 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: troll 3 moved to (4, 4)
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 1 moved to (10, 4)
+Défaut: troll 4 harvested 1 PLUM
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 5 4
+
+049 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 1;HARVEST 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: troll 3 moved to (5, 4)
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 4 harvested 1 PLUM
+Défaut: troll 1 dropped 1 item to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 6 4
+
+050 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 11 4;MOVE 4 12 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: troll 3 moved to (6, 4)
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 1 moved to (11, 4)
+Défaut: troll 4 moved to (12, 3)
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+051 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 11 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 1 moved to (11, 3)
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+052 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 1
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 1 harvested 1 LEMON
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+053 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 1
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 1 dropped 1 item to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+054 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 4 11 3;MOVE 1 12 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 4 moved to (11, 3)
+Défaut: troll 1 moved to (12, 3)
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+055 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 4;MOVE 1 13 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 1 moved to (13, 3)
+Défaut: troll 4 dropped 2 items to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+056 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 14 3;MOVE 4 13 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 1 moved to (14, 3)
+Défaut: troll 4 moved to (13, 3)
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+057 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 1
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 1 harvested 1 LEMON
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+058 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 4 14 3;MOVE 1 13 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 4 moved to (14, 3)
+Défaut: troll 1 moved to (13, 3)
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+059 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 4;MOVE 1 12 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 1 moved to (12, 3)
+Défaut: troll 4 harvested 1 LEMON
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+060 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 4;MOVE 1 11 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 1 moved to (11, 3)
+Défaut: troll 4 harvested 1 LEMON
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+061 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 1;MOVE 4 12 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 4 moved to (12, 3)
+Défaut: troll 1 dropped 1 item to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+062 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 1
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 1 harvested 1 LEMON
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+063 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 1
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 1 dropped 1 item to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+064 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 11 4;MOVE 4 11 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 1 moved to (11, 4)
+Défaut: troll 4 moved to (11, 3)
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+065 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 4;MOVE 1 12 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 1 moved to (12, 4)
+Défaut: troll 4 dropped 2 items to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+066 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 4 13 3;MOVE 1 12 5
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 4 moved to (13, 3)
+Défaut: troll 1 moved to (12, 5)
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+067 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 1;MOVE 4 14 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 4 moved to (14, 3)
+Défaut: troll 1 harvested 1 PLUM
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+068 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MINE 4;MOVE 1 12 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 1 moved to (12, 4)
+Défaut: troll 4 collected 2 IRON
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+069 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 4 12 3;MOVE 1 11 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 4 moved to (12, 3)
+Défaut: troll 1 moved to (11, 4)
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+070 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 10 4;MOVE 4 11 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 1 moved to (10, 4)
+Défaut: troll 4 moved to (11, 3)
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+071 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 4;DROP 1
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 4 dropped 2 items to the shack
+Défaut: troll 1 dropped 1 item to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+072 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;TRAIN 2 2 1 1;MOVE 4 13 3;MOVE 1 11 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 4 moved to (13, 3)
+Défaut: troll 1 moved to (11, 4)
+Défaut: trained a troll
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+073 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 10 4;MOVE 5 12 3;MOVE 4 14 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 1 moved to (10, 4)
+Défaut: troll 5 moved to (12, 3)
+Défaut: troll 4 moved to (14, 3)
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+074 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 4;HARVEST 1;MOVE 5 13 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 5 moved to (13, 4)
+Défaut: troll 4 harvested 1 LEMON
+Défaut: troll 1 harvested 1 PLUM
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+075 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 4;HARVEST 5;DROP 1
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 4 harvested 1 LEMON
+Défaut: troll 5 harvested 1 APPLE
+Défaut: troll 1 dropped 1 item to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+076 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 5;MOVE 4 12 3;MOVE 1 11 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 4 moved to (12, 3)
+Défaut: troll 1 moved to (11, 4)
+Défaut: troll 5 harvested 1 APPLE
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+077 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 12 4;MOVE 5 11 4;MOVE 4 11 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 1 moved to (12, 4)
+Défaut: troll 5 moved to (11, 4)
+Défaut: troll 4 moved to (11, 3)
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+078 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 4;MOVE 1 12 5;MOVE 5 10 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 1 moved to (12, 5)
+Défaut: troll 5 moved to (10, 4)
+Défaut: troll 4 dropped 2 items to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+079 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 4;DROP 5;HARVEST 1
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 4 harvested 1 LEMON
+Défaut: troll 1 harvested 1 PLUM
+Défaut: troll 5 dropped 2 items to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+080 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 4;MOVE 5 12 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 5 moved to (12, 4)
+Défaut: troll 4 harvested 1 LEMON
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+081 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 4;MOVE 5 12 5;MOVE 1 12 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 5 moved to (12, 5)
+Défaut: troll 1 moved to (12, 4)
+Défaut: troll 4 dropped 2 items to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+082 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 5;MOVE 4 13 3;MOVE 1 11 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 4 moved to (13, 3)
+Défaut: troll 1 moved to (11, 4)
+Défaut: troll 5 harvested 1 PLUM
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+083 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 5;MOVE 1 11 3;MOVE 4 14 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 1 moved to (11, 3)
+Défaut: troll 4 moved to (14, 3)
+Défaut: troll 5 harvested 1 PLUM
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+084 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 4;DROP 1;MOVE 5 11 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 5 moved to (11, 4)
+Défaut: troll 4 harvested 1 LEMON
+Défaut: troll 1 dropped 1 item to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+085 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 1;MOVE 4 12 3;MOVE 5 10 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 4 moved to (12, 3)
+Défaut: troll 5 moved to (10, 4)
+Défaut: troll 1 harvested 1 LEMON
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+086 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 5;DROP 1
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 5 dropped 2 items to the shack
+Défaut: troll 1 dropped 1 item to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+087 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 5 12 4;MOVE 4 11 3;MOVE 1 12 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 5 moved to (12, 4)
+Défaut: troll 4 moved to (11, 3)
+Défaut: troll 1 moved to (12, 3)
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+088 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 4;MOVE 5 14 4;MOVE 1 13 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 5 moved to (14, 4)
+Défaut: troll 1 moved to (13, 3)
+Défaut: troll 4 dropped 1 item to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+089 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 4 12 2;MOVE 1 14 3;MOVE 5 13 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 4 moved to (12, 2)
+Défaut: troll 1 moved to (14, 3)
+Défaut: troll 5 moved to (13, 4)
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+090 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 5;HARVEST 1;MOVE 4 13 2
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 4 moved to (13, 2)
+Défaut: troll 1 harvested 1 LEMON
+Défaut: troll 5 harvested 1 APPLE
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+091 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 4;HARVEST 5;MOVE 1 13 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 1 moved to (13, 3)
+Défaut: troll 4 harvested 1 APPLE
+Défaut: troll 5 harvested 1 APPLE
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+092 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 4;MOVE 5 11 4;MOVE 1 12 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 5 moved to (11, 4)
+Défaut: troll 1 moved to (12, 3)
+Défaut: troll 4 harvested 1 APPLE
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+093 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 4 11 2;MOVE 1 11 3;MOVE 5 10 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 4 moved to (11, 2)
+Défaut: troll 1 moved to (11, 3)
+Défaut: troll 5 moved to (10, 4)
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+094 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 5;DROP 1
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 5 dropped 2 items to the shack
+Défaut: troll 1 dropped 1 item to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+095 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 1;MOVE 5 12 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 5 moved to (12, 4)
+Défaut: troll 1 harvested 1 LEMON
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+096 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 1;MOVE 5 13 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 5 moved to (13, 3)
+Défaut: troll 1 dropped 1 item to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+097 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 12 3;MOVE 4 11 3;MOVE 5 14 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 1 moved to (12, 3)
+Défaut: troll 4 moved to (11, 3)
+Défaut: troll 5 moved to (14, 3)
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+098 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 4;MINE 5
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 4 dropped 2 items to the shack
+Défaut: troll 5 collected 1 IRON
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+099 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MINE 5;MOVE 4 13 3;MOVE 1 11 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 4 moved to (13, 3)
+Défaut: troll 1 moved to (11, 3)
+Défaut: troll 5 collected 1 IRON
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+100 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 1;MOVE 5 12 3;MOVE 4 14 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 5 moved to (12, 3)
+Défaut: troll 4 moved to (14, 3)
+Défaut: troll 1 harvested 1 LEMON
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+101 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 4;DROP 1
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 4 harvested 1 LEMON
+Défaut: troll 1 dropped 1 item to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+102 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 4;MOVE 5 11 3;MOVE 1 12 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 5 moved to (11, 3)
+Défaut: troll 1 moved to (12, 3)
+Défaut: troll 4 harvested 1 LEMON
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+103 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 5;MOVE 1 13 3;MOVE 4 12 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 1 moved to (13, 3)
+Défaut: troll 4 moved to (12, 3)
+Défaut: troll 5 dropped 2 items to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+104 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 14 3;MOVE 5 13 3;MOVE 4 11 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 1 moved to (14, 3)
+Défaut: troll 5 moved to (13, 3)
+Défaut: troll 4 moved to (11, 3)
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+105 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 4;MINE 1
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 4 dropped 2 items to the shack
+Défaut: troll 1 collected 1 IRON
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+106 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 4 12 3;MOVE 5 14 3;MOVE 1 13 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 4 moved to (12, 3)
+Défaut: troll 5 moved to (14, 3)
+Défaut: troll 1 moved to (13, 3)
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+107 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MINE 5;MOVE 4 13 3;MOVE 1 12 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 4 moved to (13, 3)
+Défaut: troll 1 moved to (12, 3)
+Défaut: troll 5 collected 1 IRON
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+108 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 5 13 4;MOVE 1 11 3;MOVE 4 14 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 5 moved to (13, 4)
+Défaut: troll 1 moved to (11, 3)
+Défaut: troll 4 moved to (14, 3)
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+109 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MINE 4;DROP 1;MOVE 5 11 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 5 moved to (11, 4)
+Défaut: troll 1 dropped 1 item to the shack
+Défaut: troll 4 collected 2 IRON
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+110 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 1;MOVE 4 12 3;MOVE 5 10 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 4 moved to (12, 3)
+Défaut: troll 5 moved to (10, 4)
+Défaut: troll 1 harvested 1 LEMON
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+111 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 5;DROP 1;MOVE 4 11 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: [failed] troll 4 can't move to (11, 3), target blocked
+Défaut: troll 5 dropped 1 item to the shack
+Défaut: troll 1 dropped 1 item to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+112 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 5 12 4;MOVE 4 11 3;MOVE 1 12 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 5 moved to (12, 4)
+Défaut: troll 4 moved to (11, 3)
+Défaut: troll 1 moved to (12, 3)
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+113 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 4;TRAIN 1 3 1 2;MOVE 5 14 4;MOVE 1 13 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: [failed] can't afford unit training, costs: 4 PLUM, 12 LEMON, 4 APPLE, 7 IRON
+Défaut: troll 5 moved to (14, 4)
+Défaut: troll 1 moved to (13, 3)
+Défaut: troll 4 dropped 2 items to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+114 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;TRAIN 1 3 1 2;MOVE 4 12 4;MOVE 1 12 3;MOVE 5 13 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 4 moved to (12, 4)
+Défaut: troll 1 moved to (12, 3)
+Défaut: troll 5 moved to (13, 4)
+Défaut: trained a troll
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+115 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 5;MOVE 1 13 3;MOVE 6 10 4;MOVE 4 12 5
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 1 moved to (13, 3)
+Défaut: troll 6 moved to (10, 4)
+Défaut: troll 4 moved to (12, 5)
+Défaut: troll 5 harvested 1 APPLE
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+116 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 4;HARVEST 5;HARVEST 6
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 6 harvested 1 PLUM
+Défaut: troll 5 harvested 1 APPLE
+Défaut: troll 4 harvested 1 PLUM
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+117 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 4;HARVEST 6;MOVE 5 12 3;MOVE 1 13 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 5 moved to (12, 3)
+Défaut: troll 1 moved to (13, 4)
+Défaut: troll 6 harvested 1 PLUM
+Défaut: troll 4 harvested 1 PLUM
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+118 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 1;DROP 6;MOVE 4 11 4;MOVE 5 11 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 4 moved to (11, 4)
+Défaut: troll 5 moved to (11, 3)
+Défaut: troll 1 harvested 1 APPLE
+Défaut: troll 6 dropped 2 items to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+119 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 5;HARVEST 6;MOVE 1 13 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 1 moved to (13, 3)
+Défaut: troll 6 harvested 1 PLUM
+Défaut: troll 5 dropped 2 items to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+120 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 6;MOVE 5 12 2;MOVE 1 12 3;MOVE 4 11 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 5 moved to (12, 2)
+Défaut: troll 1 moved to (12, 3)
+Défaut: troll 4 moved to (11, 3)
+Défaut: troll 6 harvested 1 PLUM
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+121 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 4;DROP 6;MOVE 5 12 1
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 5 moved to (12, 1)
+Défaut: troll 4 dropped 2 items to the shack
+Défaut: troll 6 dropped 2 items to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+122 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 5;MOVE 4 12 4;MOVE 1 11 3;MOVE 6 11 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 4 moved to (12, 4)
+Défaut: troll 1 moved to (11, 3)
+Défaut: troll 6 moved to (11, 4)
+Défaut: troll 5 harvested 1 PLUM
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+123 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 5;DROP 1;MOVE 4 12 5;MOVE 6 12 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 4 moved to (12, 5)
+Défaut: troll 6 moved to (12, 4)
+Défaut: troll 5 harvested 1 PLUM
+Défaut: troll 1 dropped 1 item to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+124 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 4;HARVEST 1;MOVE 5 11 2;MOVE 6 13 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 5 moved to (11, 2)
+Défaut: troll 6 moved to (13, 4)
+Défaut: troll 1 harvested 1 LEMON
+Défaut: troll 4 harvested 1 PLUM
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+125 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 4;DROP 1;MOVE 6 13 3;MOVE 5 11 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: [failed] troll 5 can't move to (11, 3), target blocked
+Défaut: troll 6 moved to (13, 3)
+Défaut: troll 4 harvested 1 PLUM
+Défaut: troll 1 dropped 1 item to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+126 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 4 11 4;MOVE 6 14 3;MOVE 1 12 3;MOVE 5 11 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 4 moved to (11, 4)
+Défaut: troll 6 moved to (14, 3)
+Défaut: troll 1 moved to (12, 3)
+Défaut: troll 5 moved to (11, 3)
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+127 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 5;MINE 6;MOVE 1 12 4;MOVE 4 10 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 1 moved to (12, 4)
+Défaut: troll 4 moved to (10, 4)
+Défaut: troll 5 dropped 2 items to the shack
+Défaut: troll 6 collected 2 IRON
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+128 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 4;MINE 6;MOVE 5 13 3;MOVE 1 13 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 5 moved to (13, 3)
+Défaut: troll 1 moved to (13, 4)
+Défaut: troll 4 dropped 2 items to the shack
+Défaut: troll 6 collected 1 IRON
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+129 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 4 11 3;MOVE 1 14 4;MOVE 5 14 3;MOVE 6 13 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 4 moved to (11, 3)
+Défaut: troll 1 moved to (14, 4)
+Défaut: troll 5 moved to (14, 3)
+Défaut: troll 6 moved to (13, 3)
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+130 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 4;HARVEST 5;MOVE 6 12 3;MOVE 1 15 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 6 moved to (12, 3)
+Défaut: troll 1 moved to (15, 4)
+Défaut: troll 4 harvested 1 LEMON
+Défaut: troll 5 harvested 1 LEMON
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+131 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 5;MINE 1;DROP 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 5 harvested 1 LEMON
+Défaut: troll 4 dropped 1 item to the shack
+Défaut: troll 1 collected 1 IRON
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+132 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 14 4;MOVE 4 13 3;MOVE 6 11 3;MOVE 5 12 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 1 moved to (14, 4)
+Défaut: troll 4 moved to (13, 3)
+Défaut: troll 6 moved to (11, 3)
+Défaut: troll 5 moved to (12, 3)
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+133 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 6;MOVE 1 13 4;MOVE 4 14 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 1 moved to (13, 4)
+Défaut: troll 4 moved to (14, 3)
+Défaut: troll 6 dropped 3 items to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+134 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MINE 4;MOVE 1 12 4;MOVE 5 11 3;MOVE 6 12 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 1 moved to (12, 4)
+Défaut: troll 5 moved to (11, 3)
+Défaut: troll 6 moved to (12, 3)
+Défaut: troll 4 collected 2 IRON
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+135 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 5;MOVE 6 13 3;MOVE 1 11 4;MOVE 4 12 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 6 moved to (13, 3)
+Défaut: troll 1 moved to (11, 4)
+Défaut: troll 4 moved to (12, 3)
+Défaut: troll 5 dropped 2 items to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+136 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 6 14 3;MOVE 1 10 4;MOVE 5 13 3;MOVE 4 11 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 6 moved to (14, 3)
+Défaut: troll 1 moved to (10, 4)
+Défaut: troll 5 moved to (13, 3)
+Défaut: troll 4 moved to (11, 3)
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+137 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MINE 6;DROP 1;DROP 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 1 dropped 1 item to the shack
+Défaut: troll 4 dropped 2 items to the shack
+Défaut: troll 6 collected 2 IRON
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+138 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MINE 6;HARVEST 4;MOVE 1 11 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 1 moved to (11, 4)
+Défaut: troll 4 harvested 1 LEMON
+Défaut: troll 6 collected 1 IRON
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+139 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 4 10 4;MOVE 1 11 3;MOVE 5 14 3;MOVE 6 13 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 4 moved to (10, 4)
+Défaut: troll 1 moved to (11, 3)
+Défaut: troll 5 moved to (14, 3)
+Défaut: troll 6 moved to (13, 3)
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+140 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 5;HARVEST 1;DROP 4;MOVE 6 12 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 6 moved to (12, 3)
+Défaut: troll 1 harvested 1 LEMON
+Défaut: troll 5 harvested 1 LEMON
+Défaut: troll 4 dropped 1 item to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+141 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 1;MOVE 4 12 4;MOVE 6 11 3;MOVE 5 12 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: [failed] troll 6 can't move to (11, 3), target blocked
+Défaut: [failed] troll 5 can't move to (12, 3), target blocked
+Défaut: troll 4 moved to (12, 4)
+Défaut: troll 1 dropped 1 item to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+142 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 4 13 3;MOVE 1 11 4;MOVE 6 11 3;MOVE 5 12 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 4 moved to (13, 3)
+Défaut: troll 1 moved to (11, 4)
+Défaut: troll 6 moved to (11, 3)
+Défaut: troll 5 moved to (12, 3)
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+143 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 6;MOVE 5 14 3;MOVE 1 12 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 5 moved to (14, 3)
+Défaut: troll 1 moved to (12, 4)
+Défaut: troll 6 dropped 3 items to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+144 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 5;MOVE 6 12 3;MOVE 1 13 4;MOVE 4 12 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 6 moved to (12, 3)
+Défaut: troll 1 moved to (13, 4)
+Défaut: troll 4 moved to (12, 4)
+Défaut: troll 5 harvested 1 LEMON
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+145 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 4 14 4;MOVE 6 12 2;MOVE 1 13 3;MOVE 5 12 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 4 moved to (14, 4)
+Défaut: troll 6 moved to (12, 2)
+Défaut: troll 1 moved to (13, 3)
+Défaut: troll 5 moved to (12, 3)
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+146 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 6 11 2;MOVE 1 13 4;MOVE 5 11 3;MOVE 4 14 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 6 moved to (11, 2)
+Défaut: troll 1 moved to (13, 4)
+Défaut: troll 5 moved to (11, 3)
+Défaut: troll 4 moved to (14, 3)
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+147 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 5;HARVEST 4;HARVEST 1
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 4 harvested 1 LEMON
+Défaut: troll 1 harvested 1 APPLE
+Défaut: troll 5 dropped 2 items to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+148 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 4;MOVE 5 10 4;MOVE 6 11 3;MOVE 1 13 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 5 moved to (10, 4)
+Défaut: troll 6 moved to (11, 3)
+Défaut: troll 1 moved to (13, 3)
+Défaut: troll 4 harvested 1 LEMON
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+149 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 5;HARVEST 6;MOVE 4 12 3;MOVE 1 14 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 4 moved to (12, 3)
+Défaut: troll 1 moved to (14, 3)
+Défaut: troll 6 harvested 1 LEMON
+Défaut: troll 5 harvested 1 PLUM
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+150 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 5;DROP 6;MOVE 1 14 2
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 1 moved to (14, 2)
+Défaut: troll 5 harvested 1 PLUM
+Défaut: troll 6 dropped 1 item to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+151 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 5;MOVE 6 11 2;MOVE 1 15 2;MOVE 4 11 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 6 moved to (11, 2)
+Défaut: troll 1 moved to (15, 2)
+Défaut: troll 4 moved to (11, 3)
+Défaut: troll 5 dropped 2 items to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+152 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 5;DROP 4;PLANT 1 2;MOVE 6 12 2
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 6 moved to (12, 2)
+Défaut: troll 5 harvested 1 PLUM
+Défaut: troll 1 planted a APPLE
+Défaut: troll 4 dropped 2 items to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+153 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 5;MOVE 4 12 4;MOVE 6 12 1;MOVE 1 14 2
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 4 moved to (12, 4)
+Défaut: troll 6 moved to (12, 1)
+Défaut: troll 1 moved to (14, 2)
+Défaut: troll 5 harvested 1 PLUM
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+154 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 5;MOVE 6 12 2;MOVE 1 14 3;MOVE 4 12 5
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 6 moved to (12, 2)
+Défaut: troll 1 moved to (14, 3)
+Défaut: troll 4 moved to (12, 5)
+Défaut: troll 5 dropped 2 items to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+155 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 4;HARVEST 1;MOVE 5 12 4;MOVE 6 12 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 5 moved to (12, 4)
+Défaut: troll 6 moved to (12, 3)
+Défaut: troll 1 harvested 1 LEMON
+Défaut: troll 4 harvested 1 PLUM
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+156 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 4;MOVE 5 14 4;MOVE 6 11 3;MOVE 1 13 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 5 moved to (14, 4)
+Défaut: troll 6 moved to (11, 3)
+Défaut: troll 1 moved to (13, 3)
+Défaut: troll 4 harvested 1 PLUM
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+157 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 6;MOVE 5 16 4;MOVE 1 12 3;MOVE 4 11 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 5 moved to (16, 4)
+Défaut: troll 1 moved to (12, 3)
+Défaut: troll 4 moved to (11, 4)
+Défaut: troll 6 harvested 1 LEMON
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+158 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 6;MOVE 5 17 3;MOVE 4 10 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 5 moved to (17, 3)
+Défaut: troll 4 moved to (10, 4)
+Défaut: troll 6 dropped 1 item to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+159 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 5;DROP 4;MOVE 6 11 2;MOVE 1 11 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 6 moved to (11, 2)
+Défaut: troll 1 moved to (11, 3)
+Défaut: troll 5 harvested 1 LEMON
+Défaut: troll 4 dropped 2 items to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+160 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 5;DROP 1;HARVEST 4;MOVE 6 12 2
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 6 moved to (12, 2)
+Défaut: troll 5 harvested 1 LEMON
+Défaut: troll 4 harvested 1 PLUM
+Défaut: troll 1 dropped 1 item to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+161 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;TRAIN 3 3 1 2;MOVE 5 16 2;MOVE 6 12 1;MOVE 1 12 3;MOVE 4 12 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 5 moved to (16, 2)
+Défaut: troll 6 moved to (12, 1)
+Défaut: troll 1 moved to (12, 3)
+Défaut: troll 4 moved to (12, 4)
+Défaut: trained a troll
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+162 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 6;MOVE 5 14 2;MOVE 1 11 3;MOVE 4 14 4;MOVE 7 13 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 5 moved to (14, 2)
+Défaut: troll 1 moved to (11, 3)
+Défaut: troll 4 moved to (14, 4)
+Défaut: troll 7 moved to (13, 3)
+Défaut: troll 6 damaged a tree
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+163 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;PICK 1 3;MOVE 5 12 2;MOVE 6 11 1;MOVE 4 15 5;MOVE 7 15 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 5 moved to (12, 2)
+Défaut: troll 6 moved to (11, 1)
+Défaut: troll 4 moved to (15, 5)
+Défaut: troll 7 moved to (15, 4)
+Défaut: troll 1 picked 1 BANANA
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+164 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 4;MOVE 6 11 2;MOVE 1 12 3;MOVE 5 11 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 6 moved to (11, 2)
+Défaut: troll 1 moved to (12, 3)
+Défaut: troll 5 moved to (11, 3)
+Défaut: troll 4 harvested 1 BANANA
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+165 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 5;PLANT 1 3;MOVE 4 14 6;MOVE 7 15 5
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 4 moved to (14, 6)
+Défaut: troll 7 moved to (15, 5)
+Défaut: troll 1 planted a BANANA
+Défaut: troll 5 dropped 2 items to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+166 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;PICK 5 3;HARVEST 7;MOVE 4 15 6
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 4 moved to (15, 6)
+Défaut: troll 7 harvested 1 BANANA
+Défaut: troll 5 picked 1 BANANA
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+167 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 7;MOVE 5 13 3;MOVE 6 11 3;MOVE 4 15 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 5 moved to (13, 3)
+Défaut: troll 6 moved to (11, 3)
+Défaut: troll 4 moved to (15, 4)
+Défaut: troll 7 harvested 1 BANANA
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+168 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;PLANT 5 3;PICK 6 3;HARVEST 7;MOVE 4 14 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 4 moved to (14, 3)
+Défaut: troll 7 harvested 1 BANANA
+Défaut: troll 5 planted a BANANA
+Défaut: troll 6 picked 1 BANANA
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+169 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 6 11 2;MOVE 1 11 3;MOVE 5 12 4;MOVE 7 14 4;MOVE 4 14 2
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 6 moved to (11, 2)
+Défaut: troll 1 moved to (11, 3)
+Défaut: troll 5 moved to (12, 4)
+Défaut: troll 7 moved to (14, 4)
+Défaut: troll 4 moved to (14, 2)
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+170 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;PLANT 6 3;PLANT 4 3;PLANT 7 3;PICK 1 3;MOVE 5 10 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 5 moved to (10, 4)
+Défaut: troll 6 planted a BANANA
+Défaut: troll 4 planted a BANANA
+Défaut: troll 7 planted a BANANA
+Défaut: troll 1 picked 1 BANANA
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+171 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 5;MOVE 7 11 4;MOVE 4 14 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 7 moved to (11, 4)
+Défaut: troll 4 moved to (14, 3)
+Défaut: troll 5 damaged a tree
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+172 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 4;CHOP 5;MOVE 7 8 4;MOVE 1 11 4;MOVE 6 11 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 7 moved to (8, 4)
+Défaut: troll 1 moved to (11, 4)
+Défaut: troll 6 moved to (11, 3)
+Défaut: troll 4 damaged a tree
+Défaut: troll 5 damaged a tree
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+173 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;PLANT 7 3;PLANT 1 3;CHOP 5;MOVE 6 12 3;MOVE 4 13 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 6 moved to (12, 3)
+Défaut: troll 4 moved to (13, 3)
+Défaut: troll 7 planted a BANANA
+Défaut: troll 1 planted a BANANA
+Défaut: troll 5 damaged a tree
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+174 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 6;CHOP 5;MOVE 4 11 3;MOVE 1 12 4;MOVE 7 11 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 4 moved to (11, 3)
+Défaut: troll 1 moved to (12, 4)
+Défaut: troll 7 moved to (11, 4)
+Défaut: troll 6 damaged a tree
+Défaut: troll 5 damaged a tree
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+175 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 6;DROP 4;MOVE 7 14 4;MOVE 1 13 4;MOVE 5 11 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 7 moved to (14, 4)
+Défaut: troll 1 moved to (13, 4)
+Défaut: troll 5 moved to (11, 4)
+Défaut: troll 6 collected 2 WOOD
+Défaut: troll 4 dropped 1 item to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+176 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 5;CHOP 1;MOVE 7 16 5;MOVE 4 11 2;MOVE 6 11 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 7 moved to (16, 5)
+Défaut: troll 4 moved to (11, 2)
+Défaut: troll 6 moved to (11, 3)
+Défaut: troll 5 damaged a tree
+Défaut: troll 1 damaged a tree
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+177 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 6;CHOP 4;PLANT 7 3;CHOP 5;MOVE 1 13 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 1 moved to (13, 3)
+Défaut: troll 7 planted a BANANA
+Défaut: troll 4 damaged a tree
+Défaut: troll 5 damaged a tree
+Défaut: troll 6 dropped 2 items to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+178 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 6;CHOP 4;CHOP 5;CHOP 1;MOVE 7 15 5
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 7 moved to (15, 5)
+Défaut: troll 4 collected 2 WOOD
+Défaut: troll 6 damaged a tree
+Défaut: troll 1 damaged a tree
+Défaut: troll 5 collected 1 WOOD
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+179 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 6;HARVEST 7;CHOP 1;MOVE 5 10 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 5 moved to (10, 4)
+Défaut: troll 7 harvested 1 BANANA
+Défaut: troll 6 damaged a tree
+Défaut: troll 1 damaged a tree
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+180 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 7;MOVE 6 11 4;MOVE 5 12 4;MOVE 1 13 4;MOVE 4 11 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 6 moved to (11, 4)
+Défaut: troll 5 moved to (12, 4)
+Défaut: troll 1 moved to (13, 4)
+Défaut: troll 4 moved to (11, 3)
+Défaut: troll 7 harvested 1 BANANA
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+181 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 4;MOVE 6 10 4;MOVE 1 14 4;MOVE 7 13 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 6 moved to (10, 4)
+Défaut: troll 1 moved to (14, 4)
+Défaut: troll 7 moved to (13, 4)
+Défaut: troll 4 dropped 2 items to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+182 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 6;MOVE 4 13 3;MOVE 5 11 3;MOVE 1 15 4;MOVE 7 11 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 4 moved to (13, 3)
+Défaut: troll 5 moved to (11, 3)
+Défaut: troll 1 moved to (15, 4)
+Défaut: troll 7 moved to (11, 4)
+Défaut: troll 6 damaged a tree
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+183 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 6;PLANT 7 3;DROP 5;MOVE 4 14 4;MOVE 1 15 5
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 4 moved to (14, 4)
+Défaut: troll 1 moved to (15, 5)
+Défaut: troll 7 planted a BANANA
+Défaut: troll 6 damaged a tree
+Défaut: troll 5 dropped 1 item to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+184 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 6;HARVEST 1;MOVE 4 14 3;MOVE 7 12 4;MOVE 5 11 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 4 moved to (14, 3)
+Défaut: troll 7 moved to (12, 4)
+Défaut: troll 5 moved to (11, 4)
+Défaut: troll 1 harvested 1 BANANA
+Défaut: troll 6 damaged a tree
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+185 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 6;CHOP 4;CHOP 5;MOVE 1 15 4;MOVE 7 12 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 1 moved to (15, 4)
+Défaut: troll 7 moved to (12, 3)
+Défaut: troll 4 damaged a tree
+Défaut: troll 6 collected 3 WOOD
+Défaut: troll 5 damaged a tree
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+186 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 6;CHOP 4;PLANT 7 3;CHOP 5;PLANT 1 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 7 planted a BANANA
+Défaut: troll 1 planted a BANANA
+Défaut: troll 4 damaged a tree
+Défaut: troll 5 damaged a tree
+Défaut: troll 6 dropped 3 items to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+187 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 4;MOVE 6 9 4;MOVE 1 15 5;MOVE 7 13 3;MOVE 5 11 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 6 moved to (9, 4)
+Défaut: troll 1 moved to (15, 5)
+Défaut: troll 7 moved to (13, 3)
+Défaut: troll 5 moved to (11, 3)
+Défaut: troll 4 damaged a tree
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+188 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 4;CHOP 7;CHOP 1;MOVE 6 8 4;MOVE 5 12 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 6 moved to (8, 4)
+Défaut: troll 5 moved to (12, 3)
+Défaut: troll 7 damaged a tree
+Défaut: troll 4 damaged a tree
+Défaut: troll 1 damaged a tree
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+189 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 6;CHOP 4;HARVEST 7;CHOP 5;CHOP 1
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: [failed] troll 7 has no fruits to harvest
+Défaut: troll 5 damaged a tree
+Défaut: troll 4 collected 2 WOOD
+Défaut: troll 6 damaged a tree
+Défaut: troll 1 damaged a tree
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+190 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 6;CHOP 7;CHOP 5;CHOP 1
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 5 damaged a tree
+Défaut: troll 7 collected 3 WOOD
+Défaut: troll 6 damaged a tree
+Défaut: troll 1 damaged a tree
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+191 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 6;MOVE 5 11 4;MOVE 1 15 6;MOVE 4 12 3;MOVE 7 11 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 5 moved to (11, 4)
+Défaut: troll 1 moved to (15, 6)
+Défaut: troll 4 moved to (12, 3)
+Défaut: troll 7 moved to (11, 3)
+Défaut: troll 6 collected 3 WOOD
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+192 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 5;HARVEST 1;DROP 7;MOVE 6 9 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 6 moved to (9, 4)
+Défaut: troll 1 harvested 1 BANANA
+Défaut: troll 5 damaged a tree
+Défaut: troll 7 dropped 3 items to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+193 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 6 10 4;MOVE 5 13 4;MOVE 1 15 5;MOVE 7 14 3;MOVE 4 11 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 6 moved to (10, 4)
+Défaut: troll 5 moved to (13, 4)
+Défaut: troll 1 moved to (15, 5)
+Défaut: troll 7 moved to (14, 3)
+Défaut: troll 4 moved to (11, 3)
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+194 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 6;DROP 4;MOVE 5 13 2;MOVE 1 15 4;MOVE 7 14 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 5 moved to (13, 2)
+Défaut: troll 1 moved to (15, 4)
+Défaut: troll 7 moved to (14, 4)
+Défaut: troll 6 dropped 3 items to the shack
+Défaut: troll 4 dropped 2 items to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+195 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 7;MOVE 6 11 4;MOVE 4 12 4;MOVE 5 14 2
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 6 moved to (11, 4)
+Défaut: troll 4 moved to (12, 4)
+Défaut: troll 5 moved to (14, 2)
+Défaut: troll 7 harvested 1 BANANA
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+196 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 6;HARVEST 5;MOVE 7 12 5;MOVE 4 14 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 7 moved to (12, 5)
+Défaut: troll 4 moved to (14, 4)
+Défaut: troll 5 harvested 1 BANANA
+Défaut: troll 6 collected 3 WOOD
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+197 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 6 11 3;MOVE 4 15 5;MOVE 5 13 3;MOVE 1 14 4;MOVE 7 10 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 6 moved to (11, 3)
+Défaut: troll 4 moved to (15, 5)
+Défaut: troll 5 moved to (13, 3)
+Défaut: troll 1 moved to (14, 4)
+Défaut: troll 7 moved to (10, 4)
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+198 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 6;HARVEST 4;PLANT 7 3;MOVE 5 12 4;MOVE 1 13 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 5 moved to (12, 4)
+Défaut: troll 1 moved to (13, 4)
+Défaut: troll 4 harvested 1 BANANA
+Défaut: troll 7 planted a BANANA
+Défaut: troll 6 dropped 3 items to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;PICK 2 PLUM;MOVE 3 7 4
+
+199 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 6;HARVEST 4;MOVE 5 10 4;MOVE 7 12 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 picked 1 PLUM
+Défaut: troll 5 moved to (10, 4)
+Défaut: troll 7 moved to (12, 4)
+Défaut: troll 4 harvested 1 BANANA
+Défaut: troll 6 damaged a tree
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 7 4
+
+200 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 6;MOVE 4 14 4;MOVE 7 15 4;MOVE 1 12 4;MOVE 5 9 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 4 moved to (14, 4)
+Défaut: troll 7 moved to (15, 4)
+Défaut: troll 1 moved to (12, 4)
+Défaut: troll 5 moved to (9, 4)
+Défaut: troll 6 damaged a tree
+
+Sortie standard :
+
+MOVE 0 7 4;MOVE 2 9 4;MOVE 3 7 4
+
+201 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 6;PLANT 5 3;MOVE 4 13 3;MOVE 1 11 4;MOVE 7 15 6
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: troll 2 moved to (9, 4)
+Guugugaga: troll 3 moved to (7, 4)
+Défaut: troll 4 moved to (13, 3)
+Défaut: troll 1 moved to (11, 4)
+Défaut: troll 7 moved to (15, 6)
+Défaut: troll 5 planted a BANANA
+Défaut: troll 6 damaged a tree
+
+Sortie standard :
+
+MOVE 0 7 4;CHOP 2;DROP 3
+
+202 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 6;PLANT 4 3;CHOP 5;PLANT 1 3;MOVE 7 15 5
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: troll 2 damaged a tree
+Guugugaga: troll 3 dropped 1 item to the shack
+Défaut: troll 7 moved to (15, 5)
+Défaut: troll 4 planted a BANANA
+Défaut: troll 1 planted a BANANA
+Défaut: troll 6 collected 3 WOOD
+Défaut: troll 5 damaged a tree
+
+Sortie standard :
+
+MOVE 0 7 4;CHOP 2;MOVE 3 6 4
+
+203 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 6;CHOP 1;CHOP 7;MOVE 5 7 4;MOVE 4 13 2
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (7, 4)
+Guugugaga: troll 3 moved to (6, 4)
+Guugugaga: troll 2 collected 1 WOOD
+Défaut: troll 5 moved to (7, 4)
+Défaut: troll 4 moved to (13, 2)
+Défaut: troll 1 damaged a tree
+Défaut: troll 7 damaged a tree
+Défaut: troll 6 dropped 3 items to the shack
+
+Sortie standard :
+
+DROP 0;MOVE 2 7 4;MOVE 3 5 4
+
+204 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 1;CHOP 7;MOVE 6 12 3;MOVE 4 11 2;MOVE 5 5 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 2 can't move to (7, 4), target blocked
+Guugugaga: troll 3 moved to (5, 4)
+Guugugaga: troll 0 dropped 1 item to the shack
+Défaut: troll 6 moved to (12, 3)
+Défaut: troll 4 moved to (11, 2)
+Défaut: troll 5 moved to (5, 4)
+Défaut: troll 1 damaged a tree
+Défaut: troll 7 collected 3 WOOD
+
+Sortie standard :
+
+MOVE 0 8 4;MOVE 2 7 4;MOVE 3 4 4
+
+205 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 6;PLANT 4 3;CHOP 1;MOVE 7 14 3;MOVE 5 4 4
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (8, 4)
+Guugugaga: troll 2 moved to (7, 4)
+Guugugaga: troll 3 moved to (4, 4)
+Défaut: troll 7 moved to (14, 3)
+Défaut: troll 5 moved to (4, 4)
+Défaut: troll 4 planted a BANANA
+Défaut: troll 6 damaged a tree
+Défaut: troll 1 collected 1 WOOD
+
+Sortie standard :
+
+MOVE 0 9 4;DROP 2;HARVEST 3
+
+206 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 6;CHOP 5;MOVE 4 13 2;MOVE 1 10 4;MOVE 7 11 3
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (9, 4)
+Guugugaga: troll 3 harvested 1 APPLE
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 4 moved to (13, 2)
+Défaut: troll 1 moved to (10, 4)
+Défaut: troll 7 moved to (11, 3)
+Défaut: troll 6 collected 3 WOOD
+Défaut: troll 5 damaged a tree
+
+Sortie standard :
+
+MOVE 0 10 4;MOVE 2 9 4;MOVE 3 5 4
+
+207 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 5;DROP 1;DROP 7;MOVE 4 14 2
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (10, 4)
+Guugugaga: troll 2 moved to (9, 4)
+Guugugaga: troll 3 moved to (5, 4)
+Défaut: troll 4 moved to (14, 2)
+Défaut: troll 5 damaged a tree
+Défaut: troll 1 dropped 1 item to the shack
+Défaut: troll 7 dropped 3 items to the shack
+
+Sortie standard :
+
+CHOP 0;MOVE 2 7 4;MOVE 3 6 4
+
+208 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 4;CHOP 5;MOVE 1 11 4;MOVE 7 12 1;MOVE 6 11 3
+
+Résumé du jeu :
+
+Guugugaga: troll 2 moved to (7, 4)
+Guugugaga: troll 3 moved to (6, 4)
+Guugugaga: troll 0 damaged a tree
+Défaut: troll 1 moved to (11, 4)
+Défaut: troll 7 moved to (12, 1)
+Défaut: troll 6 moved to (11, 3)
+Défaut: troll 4 damaged a tree
+Défaut: troll 5 damaged a tree
+
+Sortie standard :
+
+CHOP 0;MOVE 2 9 4;MOVE 3 6 5
+
+209 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 6;CHOP 4;CHOP 5;CHOP 7;MOVE 1 12 4
+
+Résumé du jeu :
+
+Guugugaga: troll 2 moved to (9, 4)
+Guugugaga: troll 3 moved to (6, 5)
+Guugugaga: troll 0 damaged a tree
+Défaut: troll 1 moved to (12, 4)
+Défaut: troll 7 damaged a tree
+Défaut: troll 4 damaged a tree
+Défaut: troll 5 damaged a tree
+Défaut: troll 6 dropped 3 items to the shack
+
+Sortie standard :
+
+CHOP 0;MOVE 2 10 3;DROP 3
+
+210 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 4;CHOP 5;CHOP 7;MOVE 6 11 4;MOVE 1 12 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 2 can't move to (10, 4), target blocked
+Guugugaga: troll 0 damaged a tree
+Guugugaga: troll 3 dropped 1 item to the shack
+Défaut: troll 6 moved to (11, 4)
+Défaut: troll 1 moved to (12, 3)
+Défaut: troll 7 damaged a tree
+Défaut: troll 4 collected 2 WOOD
+Défaut: troll 5 damaged a tree
+
+Sortie standard :
+
+CHOP 0;MOVE 2 10 3;MOVE 3 6 4
+
+211 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 5;CHOP 7;MOVE 6 10 4;MOVE 4 12 2;MOVE 1 13 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 2 can't move to (10, 4), target blocked
+Guugugaga: troll 3 moved to (6, 4)
+Guugugaga: troll 0 damaged a tree
+Défaut: troll 6 moved to (10, 4)
+Défaut: troll 4 moved to (12, 2)
+Défaut: troll 1 moved to (13, 3)
+Défaut: troll 7 damaged a tree
+Défaut: troll 5 damaged a tree
+
+Sortie standard :
+
+CHOP 0;MOVE 2 10 3;MOVE 3 5 4
+
+212 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 6;CHOP 1;CHOP 7;MOVE 4 11 3;MOVE 5 2 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 2 can't move to (10, 4), target blocked
+Guugugaga: troll 3 moved to (5, 4)
+Guugugaga: troll 0 collected 1 WOOD
+Défaut: troll 4 moved to (11, 3)
+Défaut: troll 5 moved to (2, 4)
+Défaut: troll 7 damaged a tree
+Défaut: troll 1 damaged a tree
+Défaut: troll 6 collected 2 WOOD
+
+Sortie standard :
+
+MOVE 0 9 4;MOVE 2 10 3;MOVE 3 4 4
+
+213 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 4;CHOP 1;CHOP 7;MOVE 6 11 4;MOVE 5 2 3
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (9, 4)
+Guugugaga: troll 2 moved to (10, 4)
+Guugugaga: troll 3 moved to (4, 4)
+Défaut: troll 6 moved to (11, 4)
+Défaut: troll 5 moved to (2, 3)
+Défaut: troll 7 collected 3 WOOD
+Défaut: troll 1 damaged a tree
+Défaut: troll 4 dropped 2 items to the shack
+
+Sortie standard :
+
+MOVE 0 8 4;MOVE 2 11 3;HARVEST 3
+
+214 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 5;CHOP 1;MOVE 6 12 4;MOVE 4 12 2;MOVE 7 11 3
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (8, 4)
+Guugugaga: troll 2 moved to (11, 3)
+Guugugaga: troll 3 harvested 1 APPLE
+Défaut: troll 6 moved to (12, 4)
+Défaut: troll 4 moved to (12, 2)
+Défaut: troll 7 moved to (11, 3)
+Défaut: troll 5 harvested 1 BANANA
+Défaut: troll 1 damaged a tree
+
+Sortie standard :
+
+MOVE 0 7 4;MOVE 2 13 3;MOVE 3 5 4
+
+215 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 5;DROP 7;MOVE 6 13 4;MOVE 1 14 3;MOVE 4 13 2
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (7, 4)
+Guugugaga: troll 2 moved to (13, 3)
+Guugugaga: troll 3 moved to (5, 4)
+Défaut: troll 6 moved to (13, 4)
+Défaut: troll 1 moved to (14, 3)
+Défaut: troll 4 moved to (13, 2)
+Défaut: troll 5 harvested 1 BANANA
+Défaut: troll 7 dropped 3 items to the shack
+
+Sortie standard :
+
+DROP 0;CHOP 2;MOVE 3 6 4
+
+216 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 4;MOVE 6 14 4;MOVE 5 3 4;MOVE 7 13 4
+
+Résumé du jeu :
+
+Guugugaga: troll 3 moved to (6, 4)
+Guugugaga: troll 2 damaged a tree
+Guugugaga: troll 0 dropped 1 item to the shack
+Défaut: troll 6 moved to (14, 4)
+Défaut: troll 5 moved to (3, 4)
+Défaut: troll 7 moved to (13, 4)
+Défaut: troll 4 damaged a tree
+
+Sortie standard :
+
+MOVE 0 6 4;CHOP 2;MOVE 3 6 5
+
+217 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 6;CHOP 4;MOVE 5 5 4;MOVE 7 15 4
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (6, 4)
+Guugugaga: troll 3 moved to (6, 5)
+Guugugaga: troll 2 collected 1 WOOD
+Défaut: troll 5 moved to (5, 4)
+Défaut: troll 7 moved to (15, 4)
+Défaut: troll 6 harvested 1 BANANA
+Défaut: troll 4 damaged a tree
+
+Sortie standard :
+
+MOVE 0 7 4;MOVE 2 12 4;DROP 3
+
+218 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 7;MOVE 6 13 4;MOVE 4 15 2;MOVE 5 7 4;MOVE 1 14 4
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (7, 4)
+Guugugaga: troll 2 moved to (12, 4)
+Guugugaga: troll 3 dropped 1 item to the shack
+Défaut: troll 6 moved to (13, 4)
+Défaut: troll 4 moved to (15, 2)
+Défaut: troll 5 moved to (7, 4)
+Défaut: troll 1 moved to (14, 4)
+Défaut: troll 7 harvested 1 BANANA
+
+Sortie standard :
+
+MOVE 0 8 4;MOVE 2 10 4;MOVE 3 5 5
+
+219 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 1;MOVE 6 12 4;MOVE 4 16 3;MOVE 5 9 4;MOVE 7 14 3
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (8, 4)
+Guugugaga: troll 2 moved to (10, 4)
+Guugugaga: troll 3 moved to (5, 5)
+Défaut: troll 6 moved to (12, 4)
+Défaut: troll 4 moved to (16, 3)
+Défaut: troll 5 moved to (9, 4)
+Défaut: troll 7 moved to (14, 3)
+Défaut: troll 1 harvested 1 BANANA
+
+Sortie standard :
+
+MOVE 0 9 4;MOVE 2 8 4;MOVE 3 4 5
+
+220 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;PLANT 7 3;MOVE 6 11 4;MOVE 4 16 5;MOVE 1 13 4;MOVE 5 10 4
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (9, 4)
+Guugugaga: troll 2 moved to (8, 4)
+Guugugaga: troll 3 moved to (4, 5)
+Défaut: troll 6 moved to (11, 4)
+Défaut: troll 4 moved to (16, 5)
+Défaut: troll 1 moved to (13, 4)
+Défaut: troll 5 moved to (10, 4)
+Défaut: troll 7 planted a BANANA
+
+Sortie standard :
+
+MOVE 0 10 4;MOVE 2 7 4;MOVE 3 3 5
+
+221 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 4;MOVE 5 11 3;MOVE 1 13 3;MOVE 6 10 4;MOVE 7 14 4
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (10, 4)
+Guugugaga: troll 2 moved to (7, 4)
+Guugugaga: troll 3 moved to (3, 5)
+Défaut: troll 5 moved to (11, 3)
+Défaut: troll 1 moved to (13, 3)
+Défaut: troll 6 moved to (10, 4)
+Défaut: troll 7 moved to (14, 4)
+Défaut: troll 4 harvested 1 BANANA
+
+Sortie standard :
+
+MOVE 0 11 4;DROP 2;HARVEST 3
+
+222 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;PLANT 6 3;PLANT 5 3;PLANT 1 3;HARVEST 7;MOVE 4 15 5
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (11, 4)
+Guugugaga: troll 3 harvested 1 LEMON
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 4 moved to (15, 5)
+Défaut: troll 7 harvested 1 BANANA
+Défaut: troll 5 planted a BANANA
+Défaut: troll 1 planted a BANANA
+Défaut: troll 6 planted a BANANA
+
+Sortie standard :
+
+MOVE 0 12 4;MOVE 2 5 4;MOVE 3 4 5
+
+223 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;PLANT 4 3;CHOP 6;MOVE 1 12 3;MOVE 7 12 4;MOVE 5 11 4
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (12, 4)
+Guugugaga: troll 2 moved to (5, 4)
+Guugugaga: troll 3 moved to (4, 5)
+Défaut: troll 1 moved to (12, 3)
+Défaut: troll 7 moved to (12, 4)
+Défaut: troll 5 moved to (11, 4)
+Défaut: troll 4 planted a BANANA
+Défaut: troll 6 damaged a tree
+
+Sortie standard :
+
+MOVE 0 13 4;MOVE 2 4 4;MOVE 3 5 5
+
+224 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;PLANT 5 3;PLANT 7 3;DROP 6;MOVE 1 11 3;MOVE 4 15 4
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (13, 4)
+Guugugaga: troll 2 moved to (4, 4)
+Guugugaga: troll 3 moved to (5, 5)
+Défaut: troll 1 moved to (11, 3)
+Défaut: troll 4 moved to (15, 4)
+Défaut: troll 5 planted a BANANA
+Défaut: troll 7 planted a BANANA
+Défaut: troll 6 dropped 2 items to the shack
+
+Sortie standard :
+
+HARVEST 0;HARVEST 2;MOVE 3 6 5
+
+225 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 4;CHOP 1;MOVE 5 11 2;MOVE 6 11 4;MOVE 7 14 4
+
+Résumé du jeu :
+
+Guugugaga: troll 3 moved to (6, 5)
+Guugugaga: troll 2 harvested 1 APPLE
+Guugugaga: troll 0 harvested 1 APPLE
+Défaut: troll 5 moved to (11, 2)
+Défaut: troll 6 moved to (11, 4)
+Défaut: troll 7 moved to (14, 4)
+Défaut: troll 1 damaged a tree
+Défaut: troll 4 damaged a tree
+
+Sortie standard :
+
+MOVE 0 12 4;MOVE 2 6 4;DROP 3
+
+226 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 4;CHOP 5;CHOP 1;CHOP 7;CHOP 6
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (12, 4)
+Guugugaga: troll 2 moved to (6, 4)
+Guugugaga: troll 3 dropped 1 item to the shack
+Défaut: troll 5 damaged a tree
+Défaut: troll 1 damaged a tree
+Défaut: troll 6 damaged a tree
+Défaut: troll 7 damaged a tree
+Défaut: troll 4 damaged a tree
+
+Sortie standard :
+
+MOVE 0 11 4;MOVE 2 7 4;MOVE 3 6 4
+
+227 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 4;CHOP 5;CHOP 1;CHOP 7;MOVE 6 12 4
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (11, 4)
+Guugugaga: troll 2 moved to (7, 4)
+Guugugaga: troll 3 moved to (6, 4)
+Défaut: troll 6 moved to (12, 4)
+Défaut: troll 5 damaged a tree
+Défaut: troll 1 collected 1 WOOD
+Défaut: troll 7 damaged a tree
+Défaut: troll 4 collected 2 WOOD
+
+Sortie standard :
+
+MOVE 0 10 4;DROP 2;MOVE 3 5 4
+
+228 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 5;DROP 1;CHOP 7;MOVE 4 14 3;MOVE 6 12 5
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (10, 4)
+Guugugaga: troll 3 moved to (5, 4)
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 4 moved to (14, 3)
+Défaut: troll 6 moved to (12, 5)
+Défaut: troll 5 damaged a tree
+Défaut: troll 7 collected 3 WOOD
+Défaut: troll 1 dropped 1 item to the shack
+
+Sortie standard :
+
+MOVE 0 9 4;MOVE 2 9 4;MOVE 3 5 3
+
+229 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 5;CHOP 6;MOVE 4 12 3;MOVE 7 11 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (9, 4), target blocked
+Guugugaga: troll 2 moved to (9, 4)
+Guugugaga: troll 3 moved to (5, 3)
+Défaut: troll 4 moved to (12, 3)
+Défaut: troll 7 moved to (11, 4)
+Défaut: troll 5 damaged a tree
+Défaut: troll 6 damaged a tree
+
+Sortie standard :
+
+MOVE 0 9 4;MOVE 2 10 3;HARVEST 3
+
+230 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 5;CHOP 6;MOVE 7 10 4
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (9, 4)
+Guugugaga: troll 2 moved to (10, 4)
+Guugugaga: troll 3 harvested 1 PLUM
+Défaut: troll 7 moved to (10, 4)
+Défaut: troll 5 harvested 1 BANANA
+Défaut: troll 6 damaged a tree
+
+Sortie standard :
+
+MOVE 0 8 4;CHOP 2;MOVE 3 5 4
+
+231 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 7;CHOP 6;MOVE 5 11 3;MOVE 1 11 2
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (8, 4)
+Guugugaga: troll 3 moved to (5, 4)
+Guugugaga: troll 2 damaged a tree
+Défaut: troll 5 moved to (11, 3)
+Défaut: troll 1 moved to (11, 2)
+Défaut: troll 6 damaged a tree
+Défaut: troll 7 dropped 3 items to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;CHOP 2;MOVE 3 6 4
+
+232 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;PLANT 5 3;CHOP 1;CHOP 6;MOVE 7 12 4
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (7, 4)
+Guugugaga: troll 3 moved to (6, 4)
+Guugugaga: troll 2 collected 1 WOOD
+Défaut: troll 7 moved to (12, 4)
+Défaut: troll 5 planted a BANANA
+Défaut: troll 1 damaged a tree
+Défaut: troll 6 damaged a tree
+
+Sortie standard :
+
+DROP 0;MOVE 2 8 4;MOVE 3 7 4
+
+233 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 1;CHOP 7;CHOP 6;MOVE 5 11 4;MOVE 4 11 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 moved to (8, 4)
+Guugugaga: troll 0 dropped 1 item to the shack
+Défaut: troll 5 moved to (11, 4)
+Défaut: troll 4 moved to (11, 3)
+Défaut: troll 1 collected 1 WOOD
+Défaut: troll 7 damaged a tree
+Défaut: troll 6 damaged a tree
+
+Sortie standard :
+
+MOVE 0 8 4;MOVE 2 6 4;MOVE 3 7 4
+
+234 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 4;CHOP 5;CHOP 7;CHOP 6
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (8, 4)
+Guugugaga: troll 2 moved to (6, 4)
+Guugugaga: troll 3 moved to (7, 4)
+Défaut: troll 5 damaged a tree
+Défaut: troll 7 collected 2 WOOD
+Défaut: troll 6 collected 3 WOOD
+Défaut: troll 4 dropped 2 items to the shack
+
+Sortie standard :
+
+MOVE 0 9 4;MOVE 2 6 5;DROP 3
+
+235 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 5;MOVE 4 13 3;MOVE 1 11 3;MOVE 6 12 4;MOVE 7 10 4
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (9, 4)
+Guugugaga: troll 2 moved to (6, 5)
+Guugugaga: troll 3 dropped 1 item to the shack
+Défaut: troll 4 moved to (13, 3)
+Défaut: troll 1 moved to (11, 3)
+Défaut: troll 6 moved to (12, 4)
+Défaut: troll 7 moved to (10, 4)
+Défaut: troll 5 collected 2 WOOD
+
+Sortie standard :
+
+MOVE 0 10 4;DROP 2;MOVE 3 6 4
+
+236 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 1;DROP 7;MOVE 4 14 4;MOVE 6 12 3
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (10, 4)
+Guugugaga: troll 3 moved to (6, 4)
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 4 moved to (14, 4)
+Défaut: troll 6 moved to (12, 3)
+Défaut: troll 1 dropped 1 item to the shack
+Défaut: troll 7 dropped 2 items to the shack
+
+Sortie standard :
+
+MOVE 0 10 3;MOVE 2 7 4;MOVE 3 5 4
+
+237 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 4 15 5;MOVE 7 13 4;MOVE 1 12 3;MOVE 6 11 3;MOVE 5 10 4
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (10, 4)
+Guugugaga: troll 2 moved to (7, 4)
+Guugugaga: troll 3 moved to (5, 4)
+Défaut: troll 4 moved to (15, 5)
+Défaut: troll 7 moved to (13, 4)
+Défaut: troll 1 moved to (12, 3)
+Défaut: troll 6 moved to (11, 3)
+Défaut: troll 5 moved to (10, 4)
+
+Sortie standard :
+
+MOVE 0 11 4;MOVE 2 5 4;MOVE 3 5 3
+
+238 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 5;DROP 6;MOVE 1 12 4;MOVE 4 16 5;MOVE 7 13 3
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (11, 4)
+Guugugaga: troll 2 moved to (5, 4)
+Guugugaga: troll 3 moved to (5, 3)
+Défaut: troll 1 moved to (12, 4)
+Défaut: troll 4 moved to (16, 5)
+Défaut: troll 7 moved to (13, 3)
+Défaut: troll 5 dropped 2 items to the shack
+Défaut: troll 6 dropped 3 items to the shack
+
+Sortie standard :
+
+MOVE 0 11 3;MOVE 2 7 4;HARVEST 3
+
+239 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 4;CHOP 6;CHOP 7;MOVE 1 13 4;MOVE 5 12 4
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (11, 3)
+Guugugaga: troll 2 moved to (7, 4)
+Guugugaga: troll 3 harvested 1 PLUM
+Défaut: troll 1 moved to (13, 4)
+Défaut: troll 5 moved to (12, 4)
+Défaut: troll 4 harvested 1 BANANA
+Défaut: troll 6 damaged a tree
+Défaut: troll 7 damaged a tree
+
+Sortie standard :
+
+CHOP 0;MOVE 2 9 4;MOVE 3 5 4
+
+240 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 4;CHOP 7;MOVE 5 14 4;MOVE 6 12 3
+
+Résumé du jeu :
+
+Guugugaga: troll 2 moved to (9, 4)
+Guugugaga: troll 3 moved to (5, 4)
+Guugugaga: troll 0 damaged a tree
+Défaut: troll 5 moved to (14, 4)
+Défaut: troll 6 moved to (12, 3)
+Défaut: troll 4 harvested 1 BANANA
+Défaut: troll 7 damaged a tree
+
+Sortie standard :
+
+CHOP 0;MOVE 2 10 3;MOVE 3 6 4
+
+241 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 7;MOVE 4 15 4;MOVE 5 15 5;MOVE 1 14 4
+
+Résumé du jeu :
+
+Guugugaga: troll 2 moved to (10, 4)
+Guugugaga: troll 3 moved to (6, 4)
+Guugugaga: troll 0 collected 1 WOOD
+Défaut: troll 4 moved to (15, 4)
+Défaut: troll 5 moved to (15, 5)
+Défaut: troll 1 moved to (14, 4)
+Défaut: troll 7 collected 3 WOOD
+
+Sortie standard :
+
+MOVE 0 11 4;MOVE 2 12 4;MOVE 3 6 5
+
+242 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 4 14 3;MOVE 6 12 4;MOVE 7 11 3;MOVE 5 16 5
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (11, 4)
+Guugugaga: troll 2 moved to (12, 4)
+Guugugaga: troll 3 moved to (6, 5)
+Défaut: troll 4 moved to (14, 3)
+Défaut: troll 6 moved to (12, 4)
+Défaut: troll 7 moved to (11, 3)
+Défaut: troll 5 moved to (16, 5)
+
+Sortie standard :
+
+MOVE 0 10 4;MOVE 2 14 4;DROP 3
+
+243 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 5;DROP 7;MOVE 4 12 3;MOVE 1 15 4;MOVE 6 13 4
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (10, 4)
+Guugugaga: troll 2 moved to (14, 4)
+Guugugaga: troll 3 dropped 1 item to the shack
+Défaut: troll 4 moved to (12, 3)
+Défaut: troll 1 moved to (15, 4)
+Défaut: troll 6 moved to (13, 4)
+Défaut: troll 5 harvested 1 BANANA
+Défaut: troll 7 dropped 3 items to the shack
+
+Sortie standard :
+
+MOVE 0 9 4;MOVE 2 15 5;MOVE 3 6 4
+
+244 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 16 4;MOVE 6 14 4;MOVE 7 13 2;MOVE 5 15 4;MOVE 4 11 3
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (9, 4)
+Guugugaga: troll 2 moved to (15, 5)
+Guugugaga: troll 3 moved to (6, 4)
+Défaut: troll 1 moved to (16, 4)
+Défaut: troll 6 moved to (14, 4)
+Défaut: troll 7 moved to (13, 2)
+Défaut: troll 5 moved to (15, 4)
+Défaut: troll 4 moved to (11, 3)
+
+Sortie standard :
+
+MOVE 0 8 4;CHOP 2;MOVE 3 5 4
+
+245 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;PLANT 4 3;MOVE 5 14 3;MOVE 1 16 5;MOVE 6 15 4;MOVE 7 14 2
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (8, 4)
+Guugugaga: troll 3 moved to (5, 4)
+Guugugaga: troll 2 damaged a tree
+Défaut: troll 5 moved to (14, 3)
+Défaut: troll 1 moved to (16, 5)
+Défaut: troll 6 moved to (15, 4)
+Défaut: troll 7 moved to (14, 2)
+Défaut: troll 4 planted a BANANA
+
+Sortie standard :
+
+MOVE 0 7 4;CHOP 2;MOVE 3 5 3
+
+246 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 4;CHOP 1;MOVE 5 12 3;MOVE 6 15 5;MOVE 7 14 3
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (7, 4)
+Guugugaga: troll 3 moved to (5, 3)
+Guugugaga: troll 2 damaged a tree
+Défaut: troll 5 moved to (12, 3)
+Défaut: troll 6 moved to (15, 5)
+Défaut: troll 7 moved to (14, 3)
+Défaut: troll 4 damaged a tree
+Défaut: troll 1 damaged a tree
+
+Sortie standard :
+
+DROP 0;CHOP 2;HARVEST 3
+
+247 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;PLANT 5 3;HARVEST 7;MOVE 6 15 6;MOVE 1 15 5;MOVE 4 11 4
+
+Résumé du jeu :
+
+Guugugaga: troll 3 harvested 1 PLUM
+Guugugaga: troll 2 damaged a tree
+Guugugaga: troll 0 dropped 1 item to the shack
+Défaut: troll 6 moved to (15, 6)
+Défaut: troll 1 moved to (15, 5)
+Défaut: troll 4 moved to (11, 4)
+Défaut: troll 7 harvested 1 BANANA
+Défaut: troll 5 planted a BANANA
+
+Sortie standard :
+
+MOVE 0 6 4;HARVEST 2;MOVE 3 5 4
+
+248 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;PLANT 4 3;HARVEST 6;MOVE 1 16 5;MOVE 5 11 3;MOVE 7 14 4
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (6, 4)
+Guugugaga: troll 3 moved to (5, 4)
+Guugugaga: troll 2 harvested 1 BANANA
+Défaut: troll 1 moved to (16, 5)
+Défaut: troll 5 moved to (11, 3)
+Défaut: troll 7 moved to (14, 4)
+Défaut: troll 6 harvested 1 BANANA
+Défaut: troll 4 planted a BANANA
+
+Sortie standard :
+
+MOVE 0 5 4;MOVE 2 14 4;MOVE 3 6 4
+
+249 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 4;CHOP 1;CHOP 6;PLANT 7 3;MOVE 5 12 3
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (5, 4)
+Guugugaga: troll 2 moved to (14, 4)
+Guugugaga: troll 3 moved to (6, 4)
+Défaut: troll 5 moved to (12, 3)
+Défaut: troll 7 planted a BANANA
+Défaut: troll 4 damaged a tree
+Défaut: troll 1 damaged a tree
+Défaut: troll 6 damaged a tree
+
+Sortie standard :
+
+MOVE 0 6 4;MOVE 2 12 4;MOVE 3 6 5
+
+250 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 4;CHOP 5;CHOP 1;CHOP 6;CHOP 7
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (6, 4)
+Guugugaga: troll 2 moved to (12, 4)
+Guugugaga: troll 3 moved to (6, 5)
+Défaut: troll 5 damaged a tree
+Défaut: troll 4 collected 1 WOOD
+Défaut: troll 7 damaged a tree
+Défaut: troll 1 damaged a tree
+Défaut: troll 6 damaged a tree
+
+Sortie standard :
+
+MOVE 0 5 4;MOVE 2 10 4;DROP 3
+
+251 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 1;MOVE 5 14 3;MOVE 6 15 5;MOVE 7 15 6;MOVE 4 11 3
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (5, 4)
+Guugugaga: troll 2 moved to (10, 4)
+Guugugaga: troll 3 dropped 1 item to the shack
+Défaut: troll 5 moved to (14, 3)
+Défaut: troll 6 moved to (15, 5)
+Défaut: troll 7 moved to (15, 6)
+Défaut: troll 4 moved to (11, 3)
+Défaut: troll 1 harvested 1 BANANA
+
+Sortie standard :
+
+MOVE 0 6 4;MOVE 2 8 4;MOVE 3 6 4
+
+252 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 5;HARVEST 7;MOVE 4 12 4;MOVE 1 16 4;MOVE 6 15 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (6, 4), target blocked
+Guugugaga: troll 2 moved to (8, 4)
+Guugugaga: troll 3 moved to (6, 4)
+Défaut: troll 4 moved to (12, 4)
+Défaut: troll 1 moved to (16, 4)
+Défaut: troll 6 moved to (15, 4)
+Défaut: troll 5 harvested 1 BANANA
+Défaut: troll 7 harvested 1 BANANA
+
+Sortie standard :
+
+MOVE 0 6 4;MOVE 2 7 4;MOVE 3 5 4
+
+253 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;PLANT 1 3;PLANT 6 3;HARVEST 7;MOVE 4 14 4;MOVE 5 12 3
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (6, 4)
+Guugugaga: troll 2 moved to (7, 4)
+Guugugaga: troll 3 moved to (5, 4)
+Défaut: troll 4 moved to (14, 4)
+Défaut: troll 5 moved to (12, 3)
+Défaut: troll 7 harvested 1 BANANA
+Défaut: troll 6 planted a BANANA
+Défaut: troll 1 planted a BANANA
+
+Sortie standard :
+
+MOVE 0 7 4;DROP 2;MOVE 3 5 3
+
+254 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 7;MOVE 4 15 5;MOVE 5 12 5;MOVE 1 16 5;MOVE 6 14 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: troll 3 moved to (5, 3)
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 4 moved to (15, 5)
+Défaut: troll 5 moved to (12, 5)
+Défaut: troll 1 moved to (16, 5)
+Défaut: troll 6 moved to (14, 4)
+Défaut: troll 7 harvested 1 BANANA
+
+Sortie standard :
+
+MOVE 0 7 4;MOVE 2 5 4;HARVEST 3
+
+255 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 4;HARVEST 1;MOVE 6 15 4;MOVE 7 14 4;MOVE 5 12 6
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (7, 4)
+Guugugaga: troll 2 moved to (5, 4)
+Guugugaga: troll 3 harvested 1 PLUM
+Défaut: troll 6 moved to (15, 4)
+Défaut: troll 7 moved to (14, 4)
+Défaut: troll 5 moved to (12, 6)
+Défaut: troll 4 harvested 1 BANANA
+Défaut: troll 1 harvested 1 BANANA
+
+Sortie standard :
+
+MOVE 0 8 4;MOVE 2 7 4;MOVE 3 5 4
+
+256 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;PLANT 5 3;MOVE 1 16 4;MOVE 7 13 3;MOVE 4 14 4;MOVE 6 15 5
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (8, 4)
+Guugugaga: troll 2 moved to (7, 4)
+Guugugaga: troll 3 moved to (5, 4)
+Défaut: troll 1 moved to (16, 4)
+Défaut: troll 7 moved to (13, 3)
+Défaut: troll 4 moved to (14, 4)
+Défaut: troll 6 moved to (15, 5)
+Défaut: troll 5 planted a BANANA
+
+Sortie standard :
+
+MOVE 0 9 4;MOVE 2 5 4;MOVE 3 6 4
+
+257 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 4 12 4;MOVE 5 13 5;MOVE 1 15 4;MOVE 6 15 6;MOVE 7 11 2
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (9, 4)
+Guugugaga: troll 2 moved to (5, 4)
+Guugugaga: troll 3 moved to (6, 4)
+Défaut: troll 4 moved to (12, 4)
+Défaut: troll 5 moved to (13, 5)
+Défaut: troll 1 moved to (15, 4)
+Défaut: troll 6 moved to (15, 6)
+Défaut: troll 7 moved to (11, 2)
+
+Sortie standard :
+
+MOVE 0 10 4;MOVE 2 7 4;MOVE 3 7 4
+
+258 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 6;PLANT 7 3;MOVE 4 10 4;MOVE 5 14 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 2 can't move to (7, 4), target blocked
+Guugugaga: troll 0 moved to (10, 4)
+Guugugaga: troll 3 moved to (7, 4)
+Défaut: troll 4 moved to (10, 4)
+Défaut: troll 5 moved to (14, 4)
+Défaut: troll 6 harvested 1 BANANA
+Défaut: troll 7 planted a BANANA
+
+Sortie standard :
+
+MOVE 0 10 3;MOVE 2 3 4;DROP 3
+
+259 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;PLANT 4 3;CHOP 6;MOVE 7 12 1;MOVE 5 14 3;MOVE 1 14 4
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (10, 4)
+Guugugaga: troll 2 moved to (3, 4)
+Guugugaga: troll 3 dropped 1 item to the shack
+Défaut: troll 7 moved to (12, 1)
+Défaut: troll 5 moved to (14, 3)
+Défaut: troll 1 moved to (14, 4)
+Défaut: troll 4 planted a BANANA
+Défaut: troll 6 collected 2 WOOD
+
+Sortie standard :
+
+CHOP 0;MOVE 2 5 4;MOVE 3 6 4
+
+260 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 4;CHOP 5;PLANT 7 3;MOVE 1 13 4;MOVE 6 14 6
+
+Résumé du jeu :
+
+Guugugaga: troll 2 moved to (5, 4)
+Guugugaga: troll 3 moved to (6, 4)
+Guugugaga: troll 0 damaged a tree
+Défaut: troll 1 moved to (13, 4)
+Défaut: troll 6 moved to (14, 6)
+Défaut: troll 7 planted a BANANA
+Défaut: troll 5 damaged a tree
+Défaut: troll 4 dropped 1 item to the shack
+
+Sortie standard :
+
+CHOP 0;MOVE 2 7 4;MOVE 3 5 4
+
+261 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 5;PLANT 6 3;CHOP 7;MOVE 4 11 3;MOVE 1 12 4
+
+Résumé du jeu :
+
+Guugugaga: troll 2 moved to (7, 4)
+Guugugaga: troll 3 moved to (5, 4)
+Guugugaga: troll 0 damaged a tree
+Défaut: troll 4 moved to (11, 3)
+Défaut: troll 1 moved to (12, 4)
+Défaut: troll 6 planted a BANANA
+Défaut: troll 7 damaged a tree
+Défaut: troll 5 damaged a tree
+
+Sortie standard :
+
+CHOP 0;MOVE 2 9 4;MOVE 3 5 3
+
+262 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 4;CHOP 5;CHOP 6;CHOP 7;MOVE 1 11 4
+
+Résumé du jeu :
+
+Guugugaga: troll 2 moved to (9, 4)
+Guugugaga: troll 3 moved to (5, 3)
+Guugugaga: troll 0 collected 1 WOOD
+Défaut: troll 1 moved to (11, 4)
+Défaut: troll 7 collected 1 WOOD
+Défaut: troll 4 damaged a tree
+Défaut: troll 5 damaged a tree
+Défaut: troll 6 damaged a tree
+
+Sortie standard :
+
+MOVE 0 9 4;MOVE 2 11 4;HARVEST 3
+
+263 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 4;CHOP 5;CHOP 6;MOVE 1 10 4;MOVE 7 11 2
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (9, 4)
+Guugugaga: troll 2 moved to (11, 4)
+Guugugaga: troll 3 harvested 1 PLUM
+Défaut: troll 1 moved to (10, 4)
+Défaut: troll 7 moved to (11, 2)
+Défaut: troll 4 collected 2 WOOD
+Défaut: troll 5 damaged a tree
+Défaut: troll 6 collected 1 WOOD
+
+Sortie standard :
+
+MOVE 0 8 4;MOVE 2 13 4;MOVE 3 5 4
+
+264 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 4;HARVEST 5;PLANT 1 3;MOVE 6 15 6
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (8, 4)
+Guugugaga: troll 2 moved to (13, 4)
+Guugugaga: troll 3 moved to (5, 4)
+Défaut: troll 6 moved to (15, 6)
+Défaut: troll 5 harvested 1 BANANA
+Défaut: troll 1 planted a BANANA
+Défaut: troll 4 dropped 2 items to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;HARVEST 2;MOVE 3 6 4
+
+265 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 1;MOVE 5 13 4;MOVE 6 15 5;MOVE 4 12 3;MOVE 7 11 3
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (7, 4)
+Guugugaga: troll 3 moved to (6, 4)
+Guugugaga: troll 2 harvested 1 APPLE
+Défaut: troll 5 moved to (13, 4)
+Défaut: troll 6 moved to (15, 5)
+Défaut: troll 4 moved to (12, 3)
+Défaut: troll 7 moved to (11, 3)
+Défaut: troll 1 damaged a tree
+
+Sortie standard :
+
+DROP 0;MOVE 2 11 4;MOVE 3 7 4
+
+266 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 4;CHOP 1;PLANT 7 3;MOVE 6 15 4;MOVE 5 13 5
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 3 can't move to (7, 4), target blocked
+Guugugaga: troll 2 moved to (11, 4)
+Guugugaga: troll 0 dropped 1 item to the shack
+Défaut: troll 6 moved to (15, 4)
+Défaut: troll 5 moved to (13, 5)
+Défaut: troll 7 planted a BANANA
+Défaut: troll 4 damaged a tree
+Défaut: troll 1 damaged a tree
+
+Sortie standard :
+
+MOVE 0 8 4;MOVE 2 9 4;MOVE 3 7 4
+
+267 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 4;PLANT 5 3;CHOP 1;DROP 7;MOVE 6 14 4
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (8, 4)
+Guugugaga: troll 2 moved to (9, 4)
+Guugugaga: troll 3 moved to (7, 4)
+Défaut: [failed] troll 4 has no fruits to harvest
+Défaut: troll 6 moved to (14, 4)
+Défaut: troll 5 planted a BANANA
+Défaut: troll 1 collected 1 WOOD
+Défaut: troll 7 dropped 1 item to the shack
+
+Sortie standard :
+
+MOVE 0 9 4;MOVE 2 7 4;DROP 3
+
+268 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 4;DROP 1;MOVE 5 13 3;MOVE 6 14 3;MOVE 7 11 2
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (9, 4), target blocked
+Guugugaga: [failed] troll 2 can't move to (7, 4), target blocked
+Guugugaga: troll 3 dropped 1 item to the shack
+Défaut: troll 5 moved to (13, 3)
+Défaut: troll 6 moved to (14, 3)
+Défaut: troll 7 moved to (11, 2)
+Défaut: troll 4 damaged a tree
+Défaut: troll 1 dropped 1 item to the shack
+
+Sortie standard :
+
+MOVE 0 9 4;MOVE 2 7 4;MOVE 3 6 4
+
+269 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 4;CHOP 7;MOVE 1 11 4;MOVE 5 14 3;MOVE 6 13 3
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (9, 4)
+Guugugaga: troll 2 moved to (7, 4)
+Guugugaga: troll 3 moved to (6, 4)
+Défaut: troll 1 moved to (11, 4)
+Défaut: troll 5 moved to (14, 3)
+Défaut: troll 6 moved to (13, 3)
+Défaut: troll 7 damaged a tree
+Défaut: troll 4 collected 2 WOOD
+
+Sortie standard :
+
+MOVE 0 10 4;DROP 2;MOVE 3 5 4
+
+270 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 5;CHOP 7;MOVE 1 12 4;MOVE 4 11 3;MOVE 6 12 3
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (10, 4)
+Guugugaga: troll 3 moved to (5, 4)
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 1 moved to (12, 4)
+Défaut: troll 4 moved to (11, 3)
+Défaut: troll 6 moved to (12, 3)
+Défaut: troll 7 collected 2 WOOD
+Défaut: troll 5 damaged a tree
+
+Sortie standard :
+
+MOVE 0 11 4;MOVE 2 5 4;MOVE 3 5 3
+
+271 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 5;DROP 4;MOVE 1 13 4;MOVE 7 10 4
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (11, 4)
+Guugugaga: troll 2 moved to (5, 4)
+Guugugaga: troll 3 moved to (5, 3)
+Défaut: troll 1 moved to (13, 4)
+Défaut: troll 7 moved to (10, 4)
+Défaut: troll 5 collected 2 WOOD
+Défaut: troll 4 dropped 2 items to the shack
+
+Sortie standard :
+
+MOVE 0 12 4;MOVE 2 7 4;HARVEST 3
+
+272 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 14 4;MOVE 7 7 4;MOVE 4 13 3;MOVE 6 11 3;MOVE 5 12 3
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (12, 4)
+Guugugaga: troll 2 moved to (7, 4)
+Guugugaga: troll 3 harvested 1 PLUM
+Défaut: troll 1 moved to (14, 4)
+Défaut: troll 7 moved to (7, 4)
+Défaut: troll 4 moved to (13, 3)
+Défaut: troll 6 moved to (11, 3)
+Défaut: troll 5 moved to (12, 3)
+
+Sortie standard :
+
+MOVE 0 13 4;MOVE 2 9 4;MOVE 3 5 4
+
+273 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 6;MOVE 1 15 4;MOVE 7 4 4;MOVE 4 14 4
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (13, 4)
+Guugugaga: troll 2 moved to (9, 4)
+Guugugaga: troll 3 moved to (5, 4)
+Défaut: troll 1 moved to (15, 4)
+Défaut: troll 7 moved to (4, 4)
+Défaut: troll 4 moved to (14, 4)
+Défaut: troll 6 dropped 3 items to the shack
+
+Sortie standard :
+
+HARVEST 0;MOVE 2 11 4;MOVE 3 6 4
+
+274 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 6;HARVEST 4;MOVE 1 16 4;MOVE 7 2 3
+
+Résumé du jeu :
+
+Guugugaga: troll 2 moved to (11, 4)
+Guugugaga: troll 3 moved to (6, 4)
+Guugugaga: troll 0 harvested 1 APPLE
+Défaut: troll 1 moved to (16, 4)
+Défaut: troll 7 moved to (2, 3)
+Défaut: troll 4 harvested 1 BANANA
+Défaut: troll 6 damaged a tree
+
+Sortie standard :
+
+MOVE 0 12 4;MOVE 2 13 4;MOVE 3 6 5
+
+275 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 6;MOVE 1 16 5;MOVE 4 12 4;MOVE 7 2 2
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (12, 4)
+Guugugaga: troll 2 moved to (13, 4)
+Guugugaga: troll 3 moved to (6, 5)
+Défaut: troll 1 moved to (16, 5)
+Défaut: troll 4 moved to (12, 4)
+Défaut: troll 7 moved to (2, 2)
+Défaut: troll 6 collected 2 WOOD
+
+Sortie standard :
+
+MOVE 0 11 4;HARVEST 2;DROP 3
+
+276 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 1;HARVEST 7;DROP 6;MOVE 4 11 3
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (11, 4)
+Guugugaga: troll 2 harvested 1 APPLE
+Guugugaga: troll 3 dropped 1 item to the shack
+Défaut: [failed] troll 4 can't move to (11, 3), target blocked
+Défaut: troll 7 harvested 1 BANANA
+Défaut: troll 1 harvested 1 BANANA
+Défaut: troll 6 dropped 2 items to the shack
+
+Sortie standard :
+
+MOVE 0 10 4;MOVE 2 11 4;MOVE 3 6 4
+
+277 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 1 15 5;MOVE 7 3 4;MOVE 4 10 4;MOVE 6 11 4;MOVE 5 11 3
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (10, 4)
+Guugugaga: troll 2 moved to (11, 4)
+Guugugaga: troll 3 moved to (6, 4)
+Défaut: troll 1 moved to (15, 5)
+Défaut: troll 7 moved to (3, 4)
+Défaut: troll 4 moved to (10, 4)
+Défaut: troll 6 moved to (11, 4)
+Défaut: troll 5 moved to (11, 3)
+
+Sortie standard :
+
+MOVE 0 9 4;MOVE 2 9 4;MOVE 3 5 4
+
+278 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 5;PICK 4 0;MOVE 1 15 4;MOVE 7 6 4;MOVE 6 12 4
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (9, 4), target blocked
+Guugugaga: troll 2 moved to (9, 4)
+Guugugaga: troll 3 moved to (5, 4)
+Défaut: troll 1 moved to (15, 4)
+Défaut: troll 7 moved to (6, 4)
+Défaut: troll 6 moved to (12, 4)
+Défaut: troll 4 picked 1 PLUM
+Défaut: troll 5 dropped 2 items to the shack
+
+Sortie standard :
+
+MOVE 0 9 4;MOVE 2 7 4;MOVE 3 5 3
+
+279 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 5 13 3;MOVE 1 14 4;MOVE 4 11 3;MOVE 6 13 4;MOVE 7 8 4
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (9, 4)
+Guugugaga: troll 2 moved to (7, 4)
+Guugugaga: troll 3 moved to (5, 3)
+Défaut: troll 5 moved to (13, 3)
+Défaut: troll 1 moved to (14, 4)
+Défaut: troll 4 moved to (11, 3)
+Défaut: troll 6 moved to (13, 4)
+Défaut: troll 7 moved to (8, 4)
+
+Sortie standard :
+
+MOVE 0 8 4;DROP 2;HARVEST 3
+
+280 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;PLANT 7 3;PLANT 4 3;MOVE 1 14 3;MOVE 6 12 4;MOVE 5 14 4
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (8, 4)
+Guugugaga: troll 3 harvested 1 PLUM
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 1 moved to (14, 3)
+Défaut: troll 6 moved to (12, 4)
+Défaut: troll 5 moved to (14, 4)
+Défaut: troll 4 planted a BANANA
+Défaut: troll 7 planted a BANANA
+
+Sortie standard :
+
+MOVE 0 7 4;MOVE 2 9 4;MOVE 3 5 4
+
+281 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 5;MOVE 1 13 3;MOVE 6 13 4;MOVE 4 12 4;MOVE 7 10 4
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (7, 4)
+Guugugaga: troll 2 moved to (9, 4)
+Guugugaga: troll 3 moved to (5, 4)
+Défaut: troll 1 moved to (13, 3)
+Défaut: troll 6 moved to (13, 4)
+Défaut: troll 4 moved to (12, 4)
+Défaut: troll 7 moved to (10, 4)
+Défaut: troll 5 harvested 1 BANANA
+
+Sortie standard :
+
+DROP 0;MOVE 2 11 4;MOVE 3 6 4
+
+282 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 7;MOVE 1 12 3;MOVE 5 13 3;MOVE 4 14 4
+
+Résumé du jeu :
+
+Guugugaga: troll 2 moved to (11, 4)
+Guugugaga: troll 3 moved to (6, 4)
+Guugugaga: troll 0 dropped 1 item to the shack
+Défaut: troll 1 moved to (12, 3)
+Défaut: troll 5 moved to (13, 3)
+Défaut: troll 4 moved to (14, 4)
+Défaut: troll 7 dropped 2 items to the shack
+
+Sortie standard :
+
+MOVE 0 6 4;MOVE 2 13 4;MOVE 3 6 5
+
+283 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;PLANT 1 3;MOVE 5 12 4;MOVE 4 16 4;MOVE 6 13 5;MOVE 7 12 5
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (6, 4)
+Guugugaga: troll 2 moved to (13, 4)
+Guugugaga: troll 3 moved to (6, 5)
+Défaut: troll 5 moved to (12, 4)
+Défaut: troll 4 moved to (16, 4)
+Défaut: troll 6 moved to (13, 5)
+Défaut: troll 7 moved to (12, 5)
+Défaut: troll 1 planted a BANANA
+
+Sortie standard :
+
+MOVE 0 5 4;HARVEST 2;DROP 3
+
+284 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;PLANT 5 3;CHOP 1;CHOP 4;CHOP 6;MOVE 7 14 4
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (5, 4)
+Guugugaga: troll 2 harvested 1 APPLE
+Guugugaga: troll 3 dropped 1 item to the shack
+Défaut: troll 7 moved to (14, 4)
+Défaut: troll 5 planted a BANANA
+Défaut: troll 1 damaged a tree
+Défaut: troll 4 damaged a tree
+Défaut: troll 6 damaged a tree
+
+Sortie standard :
+
+MOVE 0 4 4;MOVE 2 11 4;MOVE 3 6 4
+
+285 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 4;CHOP 6;CHOP 7;MOVE 1 12 2;MOVE 5 12 3
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (4, 4)
+Guugugaga: troll 2 moved to (11, 4)
+Guugugaga: troll 3 moved to (6, 4)
+Défaut: troll 1 moved to (12, 2)
+Défaut: troll 5 moved to (12, 3)
+Défaut: troll 7 damaged a tree
+Défaut: troll 4 damaged a tree
+Défaut: troll 6 damaged a tree
+
+Sortie standard :
+
+HARVEST 0;MOVE 2 9 4;MOVE 3 5 4
+
+286 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 5;CHOP 4;CHOP 6;CHOP 7;MOVE 1 13 2
+
+Résumé du jeu :
+
+Guugugaga: troll 2 moved to (9, 4)
+Guugugaga: troll 3 moved to (5, 4)
+Guugugaga: troll 0 harvested 1 APPLE
+Défaut: troll 1 moved to (13, 2)
+Défaut: troll 5 damaged a tree
+Défaut: troll 7 collected 3 WOOD
+Défaut: troll 4 collected 1 WOOD
+Défaut: troll 6 collected 3 WOOD
+
+Sortie standard :
+
+MOVE 0 5 4;MOVE 2 7 4;MOVE 3 5 3
+
+287 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 1;MOVE 5 13 4;MOVE 6 12 5;MOVE 7 11 4;MOVE 4 14 4
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (5, 4)
+Guugugaga: troll 2 moved to (7, 4)
+Guugugaga: troll 3 moved to (5, 3)
+Défaut: troll 5 moved to (13, 4)
+Défaut: troll 6 moved to (12, 5)
+Défaut: troll 7 moved to (11, 4)
+Défaut: troll 4 moved to (14, 4)
+Défaut: troll 1 damaged a tree
+
+Sortie standard :
+
+MOVE 0 6 4;DROP 2;HARVEST 3
+
+288 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 1;MOVE 5 15 4;MOVE 4 12 4;MOVE 7 11 3
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (6, 4)
+Guugugaga: troll 3 harvested 1 PLUM
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 5 moved to (15, 4)
+Défaut: troll 4 moved to (12, 4)
+Défaut: troll 7 moved to (11, 3)
+Défaut: troll 1 damaged a tree
+
+Sortie standard :
+
+MOVE 0 6 5;MOVE 2 8 4;MOVE 3 5 4
+
+289 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;CHOP 1;DROP 7;MOVE 5 16 5;MOVE 4 10 4;MOVE 6 12 4
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (6, 5)
+Guugugaga: troll 2 moved to (8, 4)
+Guugugaga: troll 3 moved to (5, 4)
+Défaut: troll 5 moved to (16, 5)
+Défaut: troll 4 moved to (10, 4)
+Défaut: troll 6 moved to (12, 4)
+Défaut: troll 1 damaged a tree
+Défaut: troll 7 dropped 3 items to the shack
+
+Sortie standard :
+
+DROP 0;CHOP 2;MOVE 3 6 4
+
+290 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 5;CHOP 1;DROP 4;CHOP 7;MOVE 6 11 4
+
+Résumé du jeu :
+
+Guugugaga: troll 3 moved to (6, 4)
+Guugugaga: troll 2 damaged a tree
+Guugugaga: troll 0 dropped 1 item to the shack
+Défaut: troll 6 moved to (11, 4)
+Défaut: troll 5 harvested 1 BANANA
+Défaut: troll 1 damaged a tree
+Défaut: troll 7 damaged a tree
+Défaut: troll 4 dropped 2 items to the shack
+
+Sortie standard :
+
+MOVE 0 6 4;CHOP 2;MOVE 3 7 4
+
+291 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 5;CHOP 1;CHOP 7;MOVE 4 12 4;MOVE 6 10 4
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (6, 4)
+Guugugaga: troll 3 moved to (7, 4)
+Guugugaga: troll 2 damaged a tree
+Défaut: troll 4 moved to (12, 4)
+Défaut: troll 6 moved to (10, 4)
+Défaut: troll 5 harvested 1 BANANA
+Défaut: troll 1 damaged a tree
+Défaut: troll 7 collected 2 WOOD
+
+Sortie standard :
+
+MOVE 0 7 4;CHOP 2;DROP 3
+
+292 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;DROP 6;DROP 7;MOVE 5 15 4;MOVE 1 13 3;MOVE 4 12 3
+
+Résumé du jeu :
+
+Guugugaga: [failed] troll 0 can't move to (7, 4), target blocked
+Guugugaga: troll 2 damaged a tree
+Guugugaga: troll 3 dropped 1 item to the shack
+Défaut: troll 5 moved to (15, 4)
+Défaut: troll 1 moved to (13, 3)
+Défaut: troll 4 moved to (12, 3)
+Défaut: troll 6 dropped 3 items to the shack
+Défaut: troll 7 dropped 2 items to the shack
+
+Sortie standard :
+
+MOVE 0 7 4;CHOP 2;MOVE 3 6 4
+
+293 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 5 13 4;MOVE 1 14 3;MOVE 4 12 5;MOVE 6 9 4;MOVE 7 13 2
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (7, 4)
+Guugugaga: troll 3 moved to (6, 4)
+Guugugaga: troll 2 damaged a tree
+Défaut: troll 5 moved to (13, 4)
+Défaut: troll 1 moved to (14, 3)
+Défaut: troll 4 moved to (12, 5)
+Défaut: troll 6 moved to (9, 4)
+Défaut: troll 7 moved to (13, 2)
+
+Sortie standard :
+
+MOVE 0 6 4;CHOP 2;MOVE 3 5 4
+
+294 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 5 11 4;MOVE 1 14 4;MOVE 6 8 4;MOVE 7 14 3;MOVE 4 12 6
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (6, 4)
+Guugugaga: troll 3 moved to (5, 4)
+Guugugaga: troll 2 collected 1 WOOD
+Défaut: troll 5 moved to (11, 4)
+Défaut: troll 1 moved to (14, 4)
+Défaut: troll 6 moved to (8, 4)
+Défaut: troll 7 moved to (14, 3)
+Défaut: troll 4 moved to (12, 6)
+
+Sortie standard :
+
+MOVE 0 5 4;MOVE 2 7 4;MOVE 3 5 3
+
+295 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 4;MOVE 1 15 4;MOVE 6 7 4;MOVE 5 11 3;MOVE 7 16 4
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (5, 4)
+Guugugaga: troll 2 moved to (7, 4)
+Guugugaga: troll 3 moved to (5, 3)
+Défaut: troll 1 moved to (15, 4)
+Défaut: troll 6 moved to (7, 4)
+Défaut: troll 5 moved to (11, 3)
+Défaut: troll 7 moved to (16, 4)
+Défaut: troll 4 harvested 1 BANANA
+
+Sortie standard :
+
+MOVE 0 6 4;DROP 2;HARVEST 3
+
+296 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;PLANT 5 3;HARVEST 4;MOVE 1 15 5;MOVE 6 8 4;MOVE 7 15 4
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (6, 4)
+Guugugaga: troll 3 harvested 1 PLUM
+Guugugaga: troll 2 dropped 1 item to the shack
+Défaut: troll 1 moved to (15, 5)
+Défaut: troll 6 moved to (8, 4)
+Défaut: troll 7 moved to (15, 4)
+Défaut: troll 4 harvested 1 BANANA
+Défaut: troll 5 planted a BANANA
+
+Sortie standard :
+
+MOVE 0 7 4;MOVE 2 9 4;MOVE 3 5 4
+
+297 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 1;HARVEST 7;MOVE 5 10 4;MOVE 6 7 4;MOVE 4 12 5
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (7, 4)
+Guugugaga: troll 2 moved to (9, 4)
+Guugugaga: troll 3 moved to (5, 4)
+Défaut: troll 5 moved to (10, 4)
+Défaut: troll 6 moved to (7, 4)
+Défaut: troll 4 moved to (12, 5)
+Défaut: troll 7 harvested 1 BANANA
+Défaut: troll 1 harvested 1 BANANA
+
+Sortie standard :
+
+MOVE 0 8 4;MOVE 2 11 4;MOVE 3 6 4
+
+298 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;PLANT 5 3;PLANT 4 3;HARVEST 7;MOVE 6 6 4
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (8, 4)
+Guugugaga: troll 2 moved to (11, 4)
+Guugugaga: troll 3 moved to (6, 4)
+Défaut: troll 6 moved to (6, 4)
+Défaut: troll 7 harvested 1 BANANA
+Défaut: troll 5 planted a BANANA
+Défaut: troll 4 planted a BANANA
+
+Sortie standard :
+
+MOVE 0 9 4;MOVE 2 13 4;MOVE 3 7 4
+
+299 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;HARVEST 7;MOVE 5 12 4;MOVE 4 12 3;MOVE 6 5 4
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (9, 4)
+Guugugaga: troll 2 moved to (13, 4)
+Guugugaga: troll 3 moved to (7, 4)
+Défaut: troll 5 moved to (12, 4)
+Défaut: troll 4 moved to (12, 3)
+Défaut: troll 6 moved to (5, 4)
+Défaut: troll 7 harvested 1 BANANA
+
+Sortie standard :
+
+MOVE 0 10 4;HARVEST 2;DROP 3
+
+300 300
+Sortie standard :
+
+MSG Eat your vegetables! And your iron!;MOVE 7 13 3;MOVE 6 5 3;MOVE 1 15 4;MOVE 4 12 2;MOVE 5 12 3
+
+Résumé du jeu :
+
+Guugugaga: troll 0 moved to (10, 4)
+Guugugaga: troll 2 harvested 1 APPLE
+Guugugaga: troll 3 dropped 1 item to the shack
+Défaut: troll 7 moved to (13, 3)
+Défaut: troll 6 moved to (5, 3)
+Défaut: troll 1 moved to (15, 4)
+Défaut: troll 4 moved to (12, 2)
+Défaut: troll 5 moved to (12, 3)
+

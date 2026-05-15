@@ -1,0 +1,134 @@
+
+Bienvenue dans la ligue Bronze !
+En Bronze, vous pouvez désormais CHOP (couper) des arbres pour obtenir du bois et MINE (miner) du fer. Les arbres poussent plus vite près de l'eau. Les parties durent 300 tours.
+Il n'y aura pas de règles supplémentaires dans les ligues supérieures.
+
+Mise à jour d'équilibrage : la distance maximale entre les cabanes a été augmentée.
+Pour plus de détails, consultez GitHub ; une nouvelle version destinée aux tests locaux y est également disponible.
+  L'Objectif
+Vous contrôlez une meute de trolls. Faites-leur collecter le plus de ressources possible.
+  Règles
+Chaque joueur commence avec un shack (cabane) et un troll. Contrôlez votre troll pour collecter des fruits , miner du fer et couper des arbres puis rapporter les ressources à votre shack. Les ressources peuvent être utilisées pour entraîner davantage de trolls ou planter des arbres. Le jeu se déroule sur une grille dont les cases ont différents types de terrain et peuvent contenir des arbres.
+
+Attributs des trolls
+Chaque troll possède 4 attributs : movementSpeed (vitesse de déplacement), carryCapacity (capacité de transport), harvestPower (puissance de récolte) et chopPower (puissance de coupe). Ils ne peuvent pas être modifiés.
+
+Arbres
+Un arbre possède un type (PLUM (prune), LEMON (citron), APPLE (pomme), BANANA (banane)), une size (taille), une health (points de vie), une quantité de fruits et un cooldown (délai de recharge). Quand le cooldown atteint 0, l'arbre grandit ou, s'il est à la taille maximale (4), produit des fruits. Les arbres peuvent contenir jusqu'à 3 fruits.
+
+Les arbres poussent plus vite lorsqu'ils sont adjacents à l'eau.
+
+
+Les arbres diffèrent en termes de cooldown et de health comme suit :
+	PLUM	LEMON	APPLE	BANANA
+Cooldown	8	8	9	6
+Cooldown près de l'eau	3	3	2	4
+Health (taille 1)	6	6	11	3
+Health (taille 2)	8	8	14	4
+Health (taille 3)	10	10	17	5
+Health (taille 4)	12	12	20	6
+Lorsqu'un arbre endommagé grandit, il récupère la différence de health entre les tailles.
+
+Déplacement des unités
+Chaque troll possède une movementSpeed déterminant combien de cases il peut MOVE (se déplacer) horizontalement ou verticalement par tour. Chaque case peut contenir au maximum 1 troll par équipe. Seules les cases GRASS (herbe) sont praticables. La cabane sert également de point d'apparition, mais les trolls ne peuvent pas revenir sur cette case après l'avoir quittée. Si la cible est hors de portée ou non praticable, le troll se déplace vers la case accessible la plus proche en direction de celle-ci.
+
+Récolte
+Les arbres peuvent être récoltés s'ils portent des fruits. Lorsqu'un troll se trouve sur la même case qu'un arbre, HARVEST (récolter) prendra autant de fruits que possible en fonction de la carryCapacity libre et de la harvestPower. Lorsque deux trolls récoltent le même arbre en parallèle, ils prennent chacun un fruit à la fois, tant qu'il reste des fruits et qu'ils peuvent encore récolter. Le dernier fruit peut être dupliqué afin que les deux trolls puissent l'obtenir.
+
+Plantation d'arbres
+Un troll peut PLANT un arbre sur sa case actuelle s'il porte au moins 1 fruit de ce type. Si deux trolls tentent de planter un arbre du même type sur la même case, les deux perdent une graine et l'arbre est planté. S'ils tentent de planter des types différents, rien ne se passe.
+
+Coupe d'arbres
+Un troll peut CHOP un arbre sur la même case, réduisant sa health de chopPower. Quand la health atteint 0, l'arbre disparaît et le troll collecte du WOOD (bois) égal à sa taille, dans la limite de sa carryCapacity libre. Tout bois que le troll ne peut pas transporter disparaît simplement. Comme pour la récolte, les deux trolls obtiennent un bois à la fois jusqu'à ce qu'ils ne puissent plus en porter ou que le bois soit entièrement réparti. Le dernier bois peut être dupliqué.
+
+Minage
+Un troll adjacent à une case IRON (fer) peut MINE, gagnant jusqu'à chopPower fer dans la limite de sa carryCapacity libre. Les ressources en fer sont infinies.
+
+Dépôt d'objets
+Lorsqu'un troll portant des ressources est adjacent (horizontalement ou verticalement) à son shack, DROP (déposer) transfère tous les objets portés au shack.
+
+Prise d'objets
+Un troll peut PICK (prendre) un objet dans son shack. Un seul objet peut être pris à la fois.
+
+Entraînement des trolls
+Utilisez TRAIN pour faire apparaître un nouveau troll à votre shack et définir ses quatre attributs. Chaque attribut nécessite une ressource différente :
+
+    PLUM pour la movementSpeed
+    LEMON pour la carryCapacity
+    APPLE pour la harvestPower
+    IRON pour la chopPower 
+
+Le coût de chaque attribut est égal au nombre de trolls existants dans votre équipe plus l'attribut au carré.
+Exemple : vous avez déjà 2 trolls et voulez TRAIN les suivants, ce qui vous donne ces coûts :
+
+    2 movementSpeed : 2 + 2×2 = 6 PLUMs
+    3 carryCapacity : 2 + 3×3 = 11 LEMONs
+    1 harvestPower : 2 + 1×1 = 3 APPLEs
+    0 chopPower : 2 + 0×0 = 2 IRONs 
+
+
+
+Conditions de victoire
+
+    Vous marquez plus de points que votre adversaire. Chaque fruit dans votre shack rapporte 1 point ; le WOOD rapporte 4 points. Le IRON n'a aucune valeur de score. 
+
+Conditions de défaite
+
+    Vous avez moins de points que votre adversaire.
+    Vous ne répondez pas à temps ou envoyez une commande non reconnue. 
+
+
+  Règles avancées
+Code source de l'arbitre : https://github.com/eulerscheZahl/Troll-Farm
+N'hésitez pas à modifier les options du visualiseur pour vous aider à déboguer votre code ().
+
+L'ordre des actions par tour est :
+
+    Déplacer les trolls
+    Récolter
+    Planter
+    Couper
+    Prendre
+    Entraîner
+    Déposer
+    Miner
+    Faire pousser les arbres
+
+Les actions du même type se produisent simultanément. Si les deux équipes récoltent ou coupent le même arbre en même temps, les ressources sont partagées équitablement.
+Puis les deux obtiennent un objet à la fois jusqu'à ce qu'ils ne puissent plus en porter ou que la ressource soit épuisée. Le dernier objet peut être dupliqué.
+Chaque troll ne peut effectuer qu'une seule action par tour.
+  Entrées du jeu
+Entrée initiale
+Première ligne : width height, la taille de la grille.
+Les height lignes suivantes : chaque ligne comporte width caractères : . pour GRASS, ~ pour WATER (eau), # pour ROCK (rocher), + pour IRON, 0 pour votre SHACK (cabane), 1 pour le SHACK de votre adversaire.
+
+
+Entrée pour chaque tour de jeu
+Deux premières lignes : votre inventaire suivi de celui de votre adversaire : plums, lemons, apples, bananas, iron, wood
+Ligne suivante : treeCount, le nombre d'arbres.
+Les treeCount lignes suivantes : type x y size health fruits cooldown, où type peut être PLUM, LEMON, APPLE, BANANA.
+Ligne suivante : trollsCount, le nombre de trolls.
+Les trollsCount lignes suivantes : id player x y movementSpeed carryCapacity harvestPower chopPower carryPlum carryLemon carryApple carryBanana carryIron carryWood, où player vaut 0 si vous possédez le troll, 1 sinon.
+
+Sortie pour un tour de jeu
+Chaque tour, vous pouvez afficher un nombre quelconque de commandes, séparées par ;.
+
+    MOVE id x y Déplace le troll id vers la case (x, y).
+    HARVEST id Fait récolter le troll id sur sa case actuelle.
+    PLANT id type Fait planter au troll id un arbre de type type sur sa case actuelle : PLUM, LEMON, APPLE ou BANANA.
+    CHOP id Fait couper au troll id l'arbre sur sa case actuelle.
+    PICK id type Fait prendre au troll id un objet de type type dans le shack : PLUM, LEMON, APPLE ou BANANA.
+    DROP id Fait déposer au troll id tous ses objets au shack.
+    TRAIN moveSpeed carryCapacity harvestPower chopPower Entraîne un nouveau troll avec les attributs donnés.
+    MINE id Fait miner au troll id un gisement de IRON adjacent.
+    WAIT (attendre) pour ne rien faire.
+    MSG text (message) pour afficher un message dans le replay.
+
+Contraintes
+
+Temps de réponse pour le premier tour ≤ 1000 ms
+Temps de réponse par tour ≤ 50 ms
+Remarque : vous ne perdrez la partie qu'en dépassant la limite de temps 3 fois d'au plus 50 ms, ou une fois de plus que cela. Ceci compense les délais aléatoires des serveurs ; il n'est pas conseillé de dépasser intentionnellement les limites.
+La partie se termine après 300 tours, lorsque l'un des joueurs peut imposer une victoire en ne faisant rien ou lorsqu'il n'y a pas d'arbres sur la carte pendant 10 tours consécutifs.
+8 ≤ height ≤ 11
+width = 2 * height
