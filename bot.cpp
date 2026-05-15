@@ -229,9 +229,6 @@ int main() {
         map<int,int> reservedTrees;
         set<int> targetedCells;
 
-        for (auto &t : myTrolls)
-            targetedCells.insert(t.x * 1000 + t.y);
-
         for (auto it = blockedCells.begin(); it != blockedCells.end();) {
             if (--it->second <= 0) blockedCells.erase(it++);
             else ++it;
@@ -244,7 +241,7 @@ int main() {
                 if (pp->second.first == t.x && pp->second.second == t.y) {
                     pair<int,int> target = pt->second;
                     if (target.first != t.x || target.second != t.y)
-                        blockedCells[target] = 5;
+                        blockedCells[target] = 1;
                 }
             }
             prevPos[t.id] = {t.x, t.y};
@@ -398,7 +395,7 @@ int main() {
             }
 
             int needBonus[4] = {0,0,0,0};
-            if (myCount < 6) {
+            if (myCount < 12) {
                 int targets[4] = {myCount+2, myCount+2, myCount+2, 0};
                 for (int f = 0; f < 4; f++)
                     needBonus[f] = max(0, targets[f] - myInv[f]) * 50;
@@ -553,8 +550,9 @@ int main() {
             }
         }
 
-        if (myCount < 6) {
-            int turnLimit = (myCount == 1) ? 290 : (myCount == 2) ? 200 : (myCount == 3) ? 100 : (myCount == 4) ? 70 : 40;
+        const int maxTrolls = 12;
+        if (myCount < maxTrolls) {
+            int turnLimit = 290;
             if (turn < turnLimit) {
                 struct Opt { int m, c, p, ch, margin; };
                 Opt opts[6] = {
