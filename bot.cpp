@@ -31,6 +31,7 @@ int W, H;
 vector<vector<Cell>> grid;
 int shackX, shackY;
 int plantsThisGame = 0;
+int maxTrollsFromMap = 10;
 
 map<pair<int,int>, int> blockedCells;
 map<int,pair<int,int>> prevPos, prevTarget;
@@ -40,6 +41,7 @@ vector<pair<int,int>> ironApproach;
 vector<pair<int,int>> shackAdjCells;
 vector<pair<int,int>> waterCells;
 vector<pair<int,int>> plantZones;
+set<pair<int,int>> plantZoneSet;
 
 int dist(int x1, int y1, int x2, int y2) {
     return abs(x1 - x2) + abs(y1 - y2);
@@ -125,6 +127,7 @@ int main() {
 
     grid.assign(H, vector<Cell>(W));
 
+    int walkableCount = 0;
     for (int y = 0; y < H; y++) {
         string line;
         getline(cin, line);
@@ -132,6 +135,7 @@ int main() {
             char c = line[x];
             grid[y][x].type = c;
             grid[y][x].walkable = (c == '.' || c == '1');
+            if (grid[y][x].walkable) walkableCount++;
             if (c == '0') {
                 shackX = x;
                 shackY = y;
@@ -139,6 +143,8 @@ int main() {
             if (c == '~') waterCells.push_back({x, y});
         }
     }
+
+    maxTrollsFromMap = max(6, min(14, walkableCount / 8));
 
     for (int y = 0; y < H; y++) {
         for (int x = 0; x < W; x++) {
@@ -189,6 +195,7 @@ int main() {
             if (wa != wb) return wa > wb;
             return da < db;
         });
+        for (auto &pz : plantZones) plantZoneSet.insert(pz);
     }
 
     int turn = 0;
@@ -225,6 +232,8 @@ int main() {
             if (player == 0) myTrolls.push_back(trolls[i]);
         }
 
+        sort(myTrolls.begin(), myTrolls.end(), [](const Troll &a, const Troll &b) { return a.id < b.id; });
+
         vector<string> actions;
         map<int,int> reservedTrees;
         set<int> targetedCells;
@@ -251,14 +260,30 @@ int main() {
         string types[4] = {"PLUM", "LEMON", "APPLE", "BANANA"};
         bool pickedThisTurn = false;
 
+        int ironNeededGlobal = max(0, (myCount + 2) - myInv[4]);
+        int desiredMiners = (ironCells.empty() ? 0 : min(2, max(1, myCount / 4 + (ironNeededGlobal > 0 ? 1 : 0))));
+        int desiredChoppers = min(2, max(1, myCount / 4));
+        set<int> minerIds;
+        set<int> chopperIds;
+        for (int i = 0; i < (int)myTrolls.size(); i++) {
+            if ((int)minerIds.size() < desiredMiners) minerIds.insert(myTrolls[i].id);
+            else if ((int)chopperIds.size() < desiredChoppers) chopperIds.insert(myTrolls[i].id);
+        }
+
         set<pair<int,int>> takenPlantSpots;
         for (auto &tree : trees)
             takenPlantSpots.insert({tree.x, tree.y});
 
         for (auto &troll : myTrolls) {
+            bool isMiner = minerIds.count(troll.id) > 0;
+            bool isChopper = chopperIds.count(troll.id) > 0;
+
             int totalCarry = 0;
             for (int k = 0; k < 6; k++) totalCarry += troll.carry[k];
             int freeCapacity = troll.carryCapacity - totalCarry;
+
+            bool canPlantHere = (plantZoneSet.count({troll.x, troll.y}) > 0) &&
+                                !takenPlantSpots.count({troll.x, troll.y});
 
             if (totalCarry > 0) {
                 bool onlyFruits = true;
@@ -266,23 +291,20 @@ int main() {
 
                 bool shouldPlant = false;
                 int plantType = -1;
-                if (onlyFruits && myCount >= 2 && turn < 100 && plantsThisGame < 12) {
-                    int plantOrder[3] = {0, 1, 2};
-                    int plantNeed[3];
+                if (onlyFruits && myCount >= 2 && turn < 140 && plantsThisGame < 16 && canPlantHere) {
+                    int plantOrder[4] = {0, 1, 2, 3};
+                    int plantNeed[4];
                     int trainTarget = myCount + 2;
-                    for (int f = 0; f < 3; f++) plantNeed[f] = trainTarget - myInv[f];
-                    for (int a = 0; a < 2; a++)
-                        for (int b = a+1; b < 3; b++)
+                    for (int f = 0; f < 4; f++) plantNeed[f] = trainTarget - myInv[f];
+                    for (int a = 0; a < 3; a++)
+                        for (int b = a+1; b < 4; b++)
                             if (plantNeed[plantOrder[a]] > plantNeed[plantOrder[b]])
                                 swap(plantOrder[a], plantOrder[b]);
-                    for (int pi = 0; pi < 3; pi++) {
+                    for (int pi = 0; pi < 4; pi++) {
                         int ft = plantOrder[pi];
                         int surplus = myInv[ft] - (myCount + 2);
                         if (surplus < 2) continue;
-                        if (troll.carry[ft] > 0 && dist(troll.x, troll.y, shackX, shackY) <= 3) {
-                            if (!grid[troll.y][troll.x].walkable) continue;
-                            if (takenPlantSpots.count({troll.x, troll.y})) continue;
-                            if (targetedCells.count(troll.x * 1000 + troll.y)) continue;
+                        if (troll.carry[ft] > 0) {
                             shouldPlant = true;
                             plantType = ft;
                             break;
@@ -335,6 +357,14 @@ int main() {
                 continue;
             }
 
+            if (isMiner) {
+                if (ironNeededGlobal > 0 && isAdjacentToIron(troll.x, troll.y) && troll.chopPower > 0 && freeCapacity > 0) {
+                    prevTarget.erase(troll.id);
+                    actions.push_back("MINE " + to_string(troll.id));
+                    continue;
+                }
+            }
+
             Tree *treeHere = nullptr;
             for (auto &tree : trees) {
                 if (tree.x == troll.x && tree.y == troll.y && tree.fruits > 0) {
@@ -350,9 +380,11 @@ int main() {
 
             Tree *treeToChop = nullptr;
             for (auto &tree : trees) {
-                if (tree.x == troll.x && tree.y == troll.y && tree.health > 0 && tree.fruits == 0 && troll.chopPower > 0 && totalCarry == 0) {
-                    treeToChop = &tree;
-                    break;
+                if (tree.x == troll.x && tree.y == troll.y && tree.health > 0 && troll.chopPower > 0 && totalCarry == 0) {
+                    if (tree.fruits == 0 || isChopper) {
+                        treeToChop = &tree;
+                        break;
+                    }
                 }
             }
             if (treeToChop && freeCapacity > 0) {
@@ -366,28 +398,24 @@ int main() {
             }
 
             {
-                int pickOrder[3] = {0, 1, 2};
-                int targets[3] = {myCount+2, myCount+2, myCount+2};
-                for (int a = 0; a < 2; a++)
-                    for (int b = a+1; b < 3; b++)
+                int pickOrder[4] = {0, 1, 2, 3};
+                int targets[4] = {myCount+2, myCount+2, myCount+2, myCount+2};
+                for (int a = 0; a < 3; a++)
+                    for (int b = a+1; b < 4; b++)
                         if (myInv[pickOrder[a]] - targets[pickOrder[a]] > myInv[pickOrder[b]] - targets[pickOrder[b]])
                             swap(pickOrder[a], pickOrder[b]);
 
                 bool didPick = false;
-                if (totalCarry == 0 && isAdjacentToShack(troll.x, troll.y) && myCount >= 2 && turn < 100 && plantsThisGame < 12 && !pickedThisTurn) {
+                if (totalCarry == 0 && isAdjacentToShack(troll.x, troll.y) && myCount >= 2 && turn < 140 && plantsThisGame < 16 && !pickedThisTurn && canPlantHere) {
                     int minInv = myCount + 2;
-                    for (int pi = 0; pi < 3 && !didPick; pi++) {
+                    for (int pi = 0; pi < 4 && !didPick; pi++) {
                         int ft = pickOrder[pi];
                         if (myInv[ft] >= minInv) {
-                            for (auto &pz : plantZones) {
-                                if (takenPlantSpots.count(pz)) continue;
-                                if (targetedCells.count(pz.first * 1000 + pz.second)) continue;
-                                prevTarget.erase(troll.id);
-                                actions.push_back("PICK " + to_string(troll.id) + " " + types[ft]);
-                                didPick = true;
-                                pickedThisTurn = true;
-                                break;
-                            }
+                            prevTarget.erase(troll.id);
+                            actions.push_back("PICK " + to_string(troll.id) + " " + types[ft]);
+                            didPick = true;
+                            pickedThisTurn = true;
+                            break;
                         }
                     }
                 }
@@ -395,8 +423,8 @@ int main() {
             }
 
             int needBonus[4] = {0,0,0,0};
-            if (myCount < 12) {
-                int targets[4] = {myCount+2, myCount+2, myCount+2, 0};
+            if (myCount < maxTrollsFromMap) {
+                int targets[4] = {myCount+2, myCount+2, myCount+2, myCount+2};
                 for (int f = 0; f < 4; f++)
                     needBonus[f] = max(0, targets[f] - myInv[f]) * 50;
             }
@@ -405,10 +433,21 @@ int main() {
             int bestTx = -1, bestTy = -1;
             string bestAction;
 
-            int ironNeeded = max(0, (myCount + 2) - myInv[4]);
-            if (ironNeeded > 0 && isAdjacentToIron(troll.x, troll.y) && troll.chopPower > 0 && freeCapacity > 0) {
-                bestScore = 3000 + ironNeeded * 500;
-                bestAction = "MINE";
+            if (isMiner && ironNeededGlobal > 0 && troll.chopPower > 0 && !isAdjacentToIron(troll.x, troll.y)) {
+                for (auto &cell : ironApproach) {
+                    int ck = cell.first * 1000 + cell.second;
+                    if (targetedCells.count(ck)) continue;
+                    if (blockedCells.count({cell.first, cell.second})) continue;
+                    int d2 = dist(troll.x, troll.y, cell.first, cell.second);
+                    int speed = max(1, troll.movementSpeed);
+                    int goCost = (d2 + speed - 1) / speed;
+                    int score = 1000 - goCost + ironNeededGlobal * 200;
+                    if (score > bestScore) {
+                        bestScore = score;
+                        bestTx = cell.first; bestTy = cell.second;
+                        bestAction = "MOVE";
+                    }
+                }
             }
 
             for (auto &tree : trees) {
@@ -420,26 +459,38 @@ int main() {
                 int d = dist(troll.x, troll.y, tree.x, tree.y);
                 int speed = max(1, troll.movementSpeed);
                 int goCost = (d + speed - 1) / speed;
+                bool nearWater = isNearWater(tree.x, tree.y);
 
-                if (tree.fruits > 0) {
-                    int returnDist = dist(tree.x, tree.y, shackX, shackY);
-                    int returnCost = (returnDist + speed - 1) / speed;
-                    int typeIdx = (tree.type == "PLUM") ? 0 : (tree.type == "LEMON") ? 1 : (tree.type == "APPLE") ? 2 : 3;
-                    int score = tree.fruits * 100 - goCost - returnCost / 2 + needBonus[typeIdx];
-                    if (d <= speed && needBonus[typeIdx] > 0) score = max(score, 5000);
-                    if (score > bestScore) {
-                        bestScore = score;
-                        bestTx = tree.x; bestTy = tree.y;
-                        bestAction = "MOVE";
+                if (!isChopper) {
+                    if (tree.fruits > 0) {
+                        int returnDist = dist(tree.x, tree.y, shackX, shackY);
+                        int returnCost = (returnDist + speed - 1) / speed;
+                        int typeIdx = (tree.type == "PLUM") ? 0 : (tree.type == "LEMON") ? 1 : (tree.type == "APPLE") ? 2 : 3;
+                        int score = tree.fruits * 100 - goCost - returnCost / 2 + needBonus[typeIdx];
+                        score += (nearWater ? 40 : 0) + tree.size * 10;
+                        if (d <= speed && needBonus[typeIdx] > 0) score = max(score, 5000);
+                        if (score > bestScore) {
+                            bestScore = score;
+                            bestTx = tree.x; bestTy = tree.y;
+                            bestAction = "MOVE";
+                        }
+                    } else if (tree.cooldown <= 2 || nearWater) {
+                        int futureScore = (nearWater ? 120 : 0) + (4 - tree.cooldown) * 20 + tree.size * 30;
+                        int score = futureScore - goCost;
+                        if (score > bestScore) {
+                            bestScore = score;
+                            bestTx = tree.x; bestTy = tree.y;
+                            bestAction = "MOVE";
+                        }
                     }
                 }
 
-                if (tree.health > 0 && tree.fruits == 0 && troll.chopPower > 0 && tree.cooldown > 3) {
+                if (troll.chopPower > 0 && (isChopper || tree.size >= 3 || tree.cooldown > 2)) {
                     int chopTurns = (tree.health + troll.chopPower - 1) / troll.chopPower;
-                    int woodValue = tree.size * 400;
-                    int score = woodValue - goCost - chopTurns * 10;
-                    if (tree.size >= 3) score += 150;
-                    if (tree.size >= 4) score += 200;
+                    int woodValue = tree.size * 500;
+                    int score = woodValue - goCost - chopTurns * 6;
+                    if (tree.size >= 3) score += 120;
+                    if (tree.size >= 4) score += 180;
                     if (score > bestScore) {
                         bestScore = score;
                         bestTx = tree.x; bestTy = tree.y;
@@ -448,110 +499,14 @@ int main() {
                 }
             }
 
-            if (ironNeeded > 0 && troll.chopPower > 0 && !isAdjacentToIron(troll.x, troll.y)) {
-                for (auto &cell : ironApproach) {
-                    int ck = cell.first * 1000 + cell.second;
-                    if (targetedCells.count(ck)) continue;
-                    if (blockedCells.count({cell.first, cell.second})) continue;
-                    int d2 = dist(troll.x, troll.y, cell.first, cell.second);
-                    int speed = max(1, troll.movementSpeed);
-                    int goCost = (d2 + speed - 1) / speed;
-                    int score = 500 - goCost + ironNeeded * 200;
-                    if (score > bestScore) {
-                        bestScore = score;
-                        bestTx = cell.first; bestTy = cell.second;
-                        bestAction = "MOVE";
-                    }
-                }
-            }
-
-            if (bestAction == "MINE") {
-                prevTarget.erase(troll.id);
-                actions.push_back("MINE " + to_string(troll.id));
-            }
-            else if (bestAction == "MOVE") {
+            if (bestAction == "MOVE") {
                 int ck = bestTx * 1000 + bestTy;
                 targetedCells.insert(ck);
                 doMove(troll.id, troll.x, troll.y, bestTx, bestTy, troll.movementSpeed, actions);
             }
-            else if (totalCarry == 0 && isAdjacentToShack(troll.x, troll.y) && myCount >= 2 && turn < 100 && plantsThisGame < 12) {
-                bool didPick = false;
-                {
-                    int pickOrder[3] = {0, 1, 2};
-                    int pickNeed[3];
-                    int pickTarget = myCount + 2;
-                    for (int f = 0; f < 3; f++) pickNeed[f] = pickTarget - myInv[f];
-                    for (int a = 0; a < 2; a++)
-                        for (int b = a+1; b < 3; b++)
-                            if (pickNeed[pickOrder[a]] > pickNeed[pickOrder[b]])
-                                swap(pickOrder[a], pickOrder[b]);
-                    for (int pi = 0; pi < 3 && !didPick; pi++) {
-                        int ft = pickOrder[pi];
-                        int surplus = myInv[ft] - (myCount + 2);
-                        if (surplus >= 2) {
-                            for (auto &pz : plantZones) {
-                                if (takenPlantSpots.count(pz)) continue;
-                                if (targetedCells.count(pz.first * 1000 + pz.second)) continue;
-                                prevTarget.erase(troll.id);
-                                actions.push_back("PICK " + to_string(troll.id) + " " + types[ft]);
-                                didPick = true;
-                                break;
-                            }
-                        }
-                    }
-                }
-                if (didPick) { pickedThisTurn = true; continue; }
-                if (!didPick) {
-                    Tree *bestFuture = nullptr;
-                    int bestFutureScore = -1;
-                    for (auto &tree : trees) {
-                        if (tree.size < 4) continue;
-                        if (tree.cooldown > 5) continue;
-                        if (targetedCells.count(tree.x * 1000 + tree.y)) continue;
-                        int d = dist(troll.x, troll.y, tree.x, tree.y);
-                        int turnCost = (d + max(1, troll.movementSpeed) - 1) / max(1, troll.movementSpeed);
-                        int score = 100 - tree.cooldown * 10 - turnCost;
-                        if (score > bestFutureScore) {
-                            bestFutureScore = score;
-                            bestFuture = &tree;
-                        }
-                    }
-                    if (bestFuture) {
-                        int fk = bestFuture->x * 1000 + bestFuture->y;
-                        if (!targetedCells.count(fk)) {
-                            targetedCells.insert(fk);
-                            doMove(troll.id, troll.x, troll.y, bestFuture->x, bestFuture->y, troll.movementSpeed, actions);
-                        }
-                    }
-                }
-            }
-            else {
-                Tree *bestFuture = nullptr;
-                int bestFutureScore = -1;
-                for (auto &tree : trees) {
-                    if (tree.size < 4) continue;
-                    if (tree.cooldown > 5) continue;
-                    if (targetedCells.count(tree.x * 1000 + tree.y)) continue;
-                    int d = dist(troll.x, troll.y, tree.x, tree.y);
-                    int turnCost = (d + max(1, troll.movementSpeed) - 1) / max(1, troll.movementSpeed);
-                    int score = 100 - tree.cooldown * 10 - turnCost;
-                    if (score > bestFutureScore) {
-                        bestFutureScore = score;
-                        bestFuture = &tree;
-                    }
-                }
-                if (bestFuture) {
-                    int fk = bestFuture->x * 1000 + bestFuture->y;
-                    if (!targetedCells.count(fk)) {
-                        targetedCells.insert(fk);
-                        doMove(troll.id, troll.x, troll.y, bestFuture->x, bestFuture->y, troll.movementSpeed, actions);
-                    }
-                }
-            }
         }
 
-        const int maxTrolls = 12;
-        if (myCount < maxTrolls) {
+        if (myCount < maxTrollsFromMap) {
             int turnLimit = 290;
             if (turn < turnLimit) {
                 struct Opt { int m, c, p, ch, margin; };
